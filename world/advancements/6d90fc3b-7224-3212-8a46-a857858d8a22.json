@@ -1,13 +1,23 @@
 {
-  "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2023-12-23 16:36:00 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "unlock_right_away": "2023-12-23 16:35:31 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:flower_forest": "2023-12-23 16:35:32 +0530",
+      "minecraft:sunflower_plains": "2023-12-23 16:36:41 +0530",
+      "minecraft:cherry_grove": "2023-12-24 02:07:48 +0530",
+      "minecraft:river": "2023-12-23 16:36:02 +0530",
+      "minecraft:plains": "2023-12-24 02:08:33 +0530"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-12-23 16:36:00 +0530"
     },
     "done": true
   },
@@ -22,20 +32,6 @@
       "in_water": "2023-12-23 16:36:00 +0530"
     },
     "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_by_something": "2023-12-23 16:36:21 +0530"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:flower_forest": "2023-12-23 16:35:32 +0530",
-      "minecraft:sunflower_plains": "2023-12-23 16:36:41 +0530",
-      "minecraft:river": "2023-12-23 16:36:02 +0530"
-    },
-    "done": false
   },
   "minecraft:recipes/transportation/bamboo_raft": {
     "criteria": {
@@ -70,6 +66,66 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2023-12-23 16:36:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2023-12-23 16:36:21 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2023-12-24 02:07:32 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:player_head_drops": {
+    "criteria": {
+      "tick": "2023-12-24 02:07:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2023-12-24 02:11:00 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:tpa": {
+    "criteria": {
+      "tick": "2023-12-24 02:07:32 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:spawn": {
+    "criteria": {
+      "tick": "2023-12-24 02:07:32 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:back": {
+    "criteria": {
+      "tick": "2023-12-24 02:07:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2023-12-24 02:11:00 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:homes": {
+    "criteria": {
+      "tick": "2023-12-24 02:07:32 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:name_colors": {
+    "criteria": {
+      "tick": "2023-12-24 02:07:32 +0530"
     },
     "done": true
   },
