@@ -1,12 +1,12 @@
 # DiscordSRV Configuration
 # Need help? Join our Discord, https://discordsrv.com/discord
 
-# Don't touch pls
+# Don't touch pls.
 ConfigVersion: 1.26.2
 
 # Bot token; don't know what this is? Look at the video on the plugin page for instructions
 # You must restart your server after changing this option
-BotToken: "MTE4ODQyNzEyNjczOTg0MTAyNA.GgYUJH.TaL35kSiy0XsfxkRFQ9yogG4aZppIlxQZpJ830"
+BotToken: "BOTTOKEN"
 
 # Channel links from game to Discord
 # syntax is Channels: {"in-game channel name from Minecraft": "numerical channel ID from Discord", "another in-game channel name from Minecraft": "another numerical channel ID from Discord"}
