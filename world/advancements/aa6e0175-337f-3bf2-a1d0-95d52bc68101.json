@@ -1,0 +1,57 @@
+{
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2023-12-24 17:16:45 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:player_head_drops": {
+    "criteria": {
+      "tick": "2023-12-24 17:16:45 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:tpa": {
+    "criteria": {
+      "tick": "2023-12-24 17:16:45 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:spawn": {
+    "criteria": {
+      "tick": "2023-12-24 17:16:45 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-12-24 17:16:45 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:back": {
+    "criteria": {
+      "tick": "2023-12-24 17:16:45 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-12-24 17:16:46 +0530"
+    },
+    "done": false
+  },
+  "vanillatweaks:homes": {
+    "criteria": {
+      "tick": "2023-12-24 17:16:45 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:name_colors": {
+    "criteria": {
+      "tick": "2023-12-24 17:16:45 +0530"
+    },
+    "done": true
+  },
+  "DataVersion": 3700
+}

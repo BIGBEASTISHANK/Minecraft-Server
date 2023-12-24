@@ -158,6 +158,8 @@ world-settings:
       entity: 50
     zombie-aggressive-towards-villager: true
     verbose: false
+  worldeditregentempworld:
+    verbose: false
 commands:
   tab-complete: 0
   send-namespaced: true
