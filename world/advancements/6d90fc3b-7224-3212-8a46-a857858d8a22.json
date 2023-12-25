@@ -87,12 +87,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_coal": "2023-12-24 02:11:00 +0530"
-    },
-    "done": true
-  },
   "vanillatweaks:tpa": {
     "criteria": {
       "tick": "2023-12-24 02:07:32 +0530"
@@ -111,12 +105,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/coal_block": {
-    "criteria": {
-      "has_coal": "2023-12-24 02:11:00 +0530"
-    },
-    "done": true
-  },
   "vanillatweaks:homes": {
     "criteria": {
       "tick": "2023-12-24 02:07:32 +0530"
@@ -126,6 +114,18 @@
   "vanillatweaks:name_colors": {
     "criteria": {
       "tick": "2023-12-24 02:07:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2023-12-24 02:11:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2023-12-24 02:11:00 +0530"
     },
     "done": true
   },
