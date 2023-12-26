@@ -81,12 +81,6 @@
     },
     "done": true
   },
-  "vanillatweaks:player_head_drops": {
-    "criteria": {
-      "tick": "2023-12-24 02:07:32 +0530"
-    },
-    "done": true
-  },
   "vanillatweaks:tpa": {
     "criteria": {
       "tick": "2023-12-24 02:07:32 +0530"

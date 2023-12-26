@@ -819,6 +819,7 @@
       "minecraft:skeleton": "2023-12-25 22:18:10 +0530",
       "minecraft:spider": "2023-12-25 22:20:11 +0530",
       "minecraft:zombie": "2023-12-23 18:50:17 +0530",
+      "minecraft:drowned": "2023-12-26 21:53:37 +0530",
       "minecraft:ravager": "2023-12-23 20:18:49 +0530"
     },
     "done": false
@@ -1249,12 +1250,6 @@
     },
     "done": true
   },
-  "vanillatweaks:player_head_drops": {
-    "criteria": {
-      "tick": "2023-12-24 02:03:28 +0530"
-    },
-    "done": true
-  },
   "vanillatweaks:tpa": {
     "criteria": {
       "tick": "2023-12-24 02:03:28 +0530"
@@ -1557,7 +1552,9 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cow": "2023-12-26 21:57:02 +0530",
       "minecraft:chicken": "2023-12-25 22:06:23 +0530",
+      "minecraft:sheep": "2023-12-26 21:57:28 +0530",
       "minecraft:bee": "2023-12-25 22:02:54 +0530"
     },
     "done": false
@@ -1823,6 +1820,42 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2023-12-25 22:48:02 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2023-12-26 21:44:13 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2023-12-26 21:52:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2023-12-26 21:44:54 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2023-12-26 21:52:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2023-12-26 21:44:13 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2023-12-26 22:02:24 +0530"
     },
     "done": true
   },
