@@ -6,4 +6,3 @@
 
 ## To join BBI's server
 - [Official Discord server](https://bigbeastishank.com/discord)
-testing 
