@@ -1,560 +1,1073 @@
-[21:23:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:23:15] [ServerMain/INFO]: Loaded 1174 recipes
-[21:23:15] [ServerMain/INFO]: Loaded 1278 advancements
-[21:23:16] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[21:23:16] [Server thread/INFO]: Loading properties
-[21:23:16] [Server thread/INFO]: This server is running Paper version git-Paper-342 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 49f9f6f)
-[21:23:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:23:31] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:23:31] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[16:59:29] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:59:44] [ServerMain/WARN]: Missing data pack file/player_head_drops_v1.1.6_MC_1.20-1.20.4.zip
+[16:59:45] [ServerMain/INFO]: Loaded 1174 recipes
+[16:59:46] [ServerMain/INFO]: Loaded 1277 advancements
+[16:59:46] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[16:59:46] [Server thread/INFO]: Loading properties
+[16:59:46] [Server thread/INFO]: This server is running Paper version git-Paper-342 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 49f9f6f)
+[16:59:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:59:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:59:59] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[21:23:31] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
-[21:23:32] [Server thread/INFO]: Default game type: SURVIVAL
-[21:23:32] [Server thread/INFO]: Generating keypair
-[21:23:32] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:23:33] [Server thread/INFO]: Using epoll channel type
-[21:23:33] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:23:33] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[21:23:33] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
-[21:23:33] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0-beta-03+d6d222e
-[21:23:34] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@47665b8f]
-[21:23:34] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.26.2
-[21:23:34] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.2.0-SNAPSHOT
-[21:23:34] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[21:23:34] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[21:23:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:23:34] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0-beta-03+d6d222e
-[21:23:34] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:23:35] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:23:35] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
-[21:23:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:23:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:23:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:23:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:23:37] [Server thread/INFO]: Preparing level "world"
-[21:23:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:23:41] [Server thread/INFO]: Time elapsed: 1997 ms
-[21:23:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:23:41] [Server thread/INFO]: Time elapsed: 46 ms
-[21:23:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:23:41] [Server thread/INFO]: Time elapsed: 57 ms
-[21:23:41] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
-[21:23:41] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[21:23:41] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[21:23:41] [Server thread/WARN]: [Multiverse-Core] Cannot load worlds.yml
-[21:23:41] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 4695028229936661800
-[21:23:41] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 4695028229936661800
-[21:23:41] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
-[21:23:41] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 64 Y: 90 Z: 0 P: 0 Y: 0 
-[21:23:42] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'world_nether' is located at: world_nether:65.50,91.00,-6.50:0.00:0.00
-[21:23:42] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 4695028229936661800
-[21:23:42] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
-[21:23:42] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 64 Y: 90 Z: 0 P: 0 Y: 0 
-[21:23:42] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'world_the_end' is located at: world_the_end:0.00,64.00,0.00:0.00:0.00
-[21:23:42] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
-[21:23:42] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[21:23:42] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[21:23:42] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.2
-[21:23:42] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.2.0-SNAPSHOT
-[21:23:43] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[21:23:43] [Server thread/INFO]: [Geyser-Spigot] 
-[21:23:43] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.2.0-SNAPSHOT (git-master-cdb8ab3)
-[21:23:43] [Server thread/INFO]: [Geyser-Spigot] 
-[21:23:43] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[21:23:44] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[21:23:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[21:23:46] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:BIG BEAST ISHANK's Server(791350584597807137)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📜rules(791541193048719361)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📣server-announcement(823058506524393483)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🚪door(1176749456750809108)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:⭐self-roles(1183090188117884928)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎥youtube-video(1183110979987443842)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📣bot-update(1176623868543258674)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔗joined-server(1177889744663887912)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:❗bot-errors(1177890074512338984)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💬chat(823058061165985812)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:⚙bot-cmds(1176617603817549906)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🗿memes(1183112309732814978)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🥇rank-up(1176617417359765614)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔞nsfw(1181993408965918853)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🗣clever-bot-chat(1183332994660962375)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🗣shuttle-ai-chat(1183336677574463569)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎼music-talk(1185918400053133483)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:⌨music-commands(1176906993311686678)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📜study-chat(1187342781543358515)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💻coder-chat(1183444943709155448)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🤝help(1176881901332598784)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:👾game-dev(1176882299657273364)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🌐web-dev(1176881848987680858)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🌑dark-web(1183088913007521872)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🕹game-talk(1183094491817721998)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔨minecraft-chat(1188087968968216607)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💬meeting-chat(1176618735415607326)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📩bbidotcom-contact-entries(1187807041683734628)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📒logs(1186622086110781491)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💯testing(1176941593161388094)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:⛓jail(1183097313359568956)
-[21:23:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
-[21:23:47] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[21:23:47] [Server thread/INFO]: [Geyser-Spigot] Done (4.403s)! Run /geyser help for help!
-[21:23:47] [Server thread/INFO]: Running delayed init tasks
-[21:23:47] [Server thread/INFO]: Done (31.423s)! For help, type "help"
-[21:23:47] [Server thread/INFO]: Timings Reset
-[21:23:48] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
-[21:23:57] [pool-16-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (767828469573c2f0fa3ed5a44feb0b2f15f2c02d)
-[21:27:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Who is tiyadaqueen
-[21:29:35] [User Authenticator #0/INFO]: UUID of player BIGBEASTISHANK is 53a3fdc7-56b7-3745-9569-a972de0a4fea
-[21:29:36] [Server thread/INFO]: BIGBEASTISHANK joined the game
-[21:29:36] [Server thread/INFO]: BIGBEASTISHANK[/127.206.153.239:56681] logged in with entity id 219 at ([world]-296.77279927460467, 87.0, 90.5240913560819)
-[21:29:37] [Craft Scheduler Thread - 5 - DiscordSRV/ERROR]: [DiscordSRV] Your AvatarUrl config option does not contain the {username} placeholder even though this server is using offline UUIDs.
-[21:29:37] [Craft Scheduler Thread - 5 - DiscordSRV/ERROR]: [DiscordSRV] https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} will be used because the default value does not support offline mode servers
-[21:29:37] [Craft Scheduler Thread - 5 - DiscordSRV/ERROR]: [DiscordSRV] You should set your AvatarUrl (in config.yml) to https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} (or another url that supports usernames) to get rid of this error
-[21:30:13] [Server thread/INFO]: BIGBEASTISHANK issued server command: /gamemode creative
-[21:30:13] [Server thread/INFO]: [BIGBEASTISHANK: Set own game mode to Creative Mode]
-[21:30:19] [Server thread/WARN]: BIGBEASTISHANK moved too quickly! 43.82774382074683,1.0325169221114692,-23.801188854356724
-[21:30:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4656ms or 93 ticks behind
-[21:31:45] [Server thread/INFO]: BIGBEASTISHANK lost connection: Disconnected
-[21:31:45] [Server thread/INFO]: BIGBEASTISHANK left the game
-[21:31:57] [User Authenticator #1/INFO]: UUID of player BIGBEASTISHANK is 53a3fdc7-56b7-3745-9569-a972de0a4fea
-[21:31:57] [Server thread/INFO]: BIGBEASTISHANK joined the game
-[21:31:57] [Server thread/INFO]: BIGBEASTISHANK[/127.206.153.239:49015] logged in with entity id 1313 at ([world]-304.6980094307068, 87.0, 89.24595406731203)
-[21:32:14] [Async Chat Thread - #1/INFO]: [Not Secure] <BIGBEASTISHANK> lude
-[21:32:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Hum bhi aaye..?
-[21:32:34] [Server thread/INFO]: BIGBEASTISHANK issued server command: /banlist
-[21:32:40] [Async Chat Thread - #0/INFO]: [Not Secure] <BIGBEASTISHANK> nhi aa
-[21:32:48] [Server thread/INFO]: BIGBEASTISHANK lost connection: Disconnected
-[21:32:49] [Server thread/INFO]: BIGBEASTISHANK left the game
-[21:33:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Ok nhi aate :sob::sob::sob::sob::sob::sob::sob::sob::sob::sob::sob::sob::sob::sob::sob::sob::sob::sob::sob::sob::sob:
-[21:33:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Mujhe nhi bulata koi  :sob::sob::sob::sob:
-[21:35:16] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Hum bathroomm me hai kaise kare
-[21:35:50] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Lol
-[21:35:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Ruko
-[21:35:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Try kar rhe
-[21:38:09] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.55.193.198:55112 tried to connect!
-[21:38:10] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.55.193.198:55112 tried to connect!
-[21:38:14] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:38:14] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:38:15] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:38:15] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:38:16] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:38:16] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:38:17] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:38:17] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:38:18] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:38:18] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:38:19] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:38:19] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:38:20] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:39:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8601ms or 172 ticks behind
-[21:39:10] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:39:10] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:39:11] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:39:11] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:39:12] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:39:12] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:39:13] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:39:13] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:39:14] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:39:14] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:39:15] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:39:15] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:39:16] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:39:19] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.55.193.198:55112 tried to connect!
-[21:39:21] [User Authenticator #2/INFO]: UUID of player BIGBEASTISHANK is 53a3fdc7-56b7-3745-9569-a972de0a4fea
-[21:39:21] [epollEventLoopGroup-3-3/INFO]: [Geyser-Spigot] Player connected with username ajha1304
-[21:39:21] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] ajha1304 (logged in as: ajha1304) has connected to the Java server
-[21:39:22] [User Authenticator #2/INFO]: UUID of player ajha1304 is 926d1512-3375-3515-94d2-891e64131925
-[21:39:22] [Server thread/INFO]: ajha1304 joined the game
-[21:39:22] [Server thread/INFO]: ajha1304[/127.55.193.198:0] logged in with entity id 1480 at ([world]-303.45285, 88.0, 84.26605)
-[21:39:22] [Server thread/INFO]: BIGBEASTISHANK joined the game
-[21:39:22] [Server thread/INFO]: BIGBEASTISHANK[/127.206.153.239:38403] logged in with entity id 1479 at ([world]-304.6980094307068, 87.0, 89.24595406731203)
-[21:39:26] [Server thread/WARN]: ajha1304 was kicked for floating too long!
-[21:39:26] [Server thread/INFO]: ajha1304 lost connection: Flying is not enabled on this server
-[21:39:26] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] ajha1304 has disconnected from the Java server because of Flying is not enabled on this server
-[21:39:27] [Server thread/INFO]: ajha1304 left the game
-[21:40:13] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:40:14] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:40:14] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:40:15] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:40:15] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:40:16] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:40:16] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:40:17] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:40:17] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:40:18] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:40:18] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:40:42] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.244.84.190:53210 tried to connect!
-[21:41:07] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.206.153.239:62955 tried to connect!
-[21:41:09] [epollEventLoopGroup-3-4/INFO]: [Geyser-Spigot] Player connected with username BBEASTISHANK
-[21:41:09] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] BBEASTISHANK (logged in as: BBEASTISHANK) has connected to the Java server
-[21:41:09] [User Authenticator #3/INFO]: UUID of player BBEASTISHANK is 6d90fc3b-7224-3212-8a46-a857858d8a22
-[21:41:09] [Server thread/INFO]: BBEASTISHANK joined the game
-[21:41:09] [Server thread/INFO]: BBEASTISHANK[/127.206.153.239:0] logged in with entity id 1696 at ([world]-301.17712, 87.875, 96.263405)
-[21:41:13] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.55.193.198:55112 tried to connect!
-[21:41:15] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Player connected with username ajha1304
-[21:41:15] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] ajha1304 (logged in as: ajha1304) has connected to the Java server
-[21:41:15] [User Authenticator #3/INFO]: UUID of player ajha1304 is 926d1512-3375-3515-94d2-891e64131925
-[21:41:15] [Server thread/INFO]: ajha1304 joined the game
-[21:41:15] [Server thread/INFO]: ajha1304[/127.55.193.198:0] logged in with entity id 1708 at ([world]-303.45285, 87.55250210301658, 84.26605)
-[21:41:23] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] BBEASTISHANK has disconnected from the Java server because of Bedrock client disconnected
-[21:41:23] [Server thread/INFO]: BBEASTISHANK lost connection: Disconnected
-[21:41:23] [Server thread/INFO]: BBEASTISHANK left the game
-[21:41:33] [Async Chat Thread - #2/INFO]: [Not Secure] <ajha1304> airtel
-[21:41:35] [Async Chat Thread - #3/INFO]: [Not Secure] <BIGBEASTISHANK> tera kiska net hai
-[21:41:47] [Async Chat Thread - #2/INFO]: [Not Secure] <ajha1304> creative
-[21:41:52] [Server thread/INFO]: BIGBEASTISHANK issued server command: /gamemode survival
-[21:41:52] [Server thread/INFO]: [BIGBEASTISHANK: Set own game mode to Survival Mode]
-[21:41:55] [Server thread/INFO]: ajha1304 was slain by BIGBEASTISHANK
-[21:42:55] [Async Chat Thread - #4/INFO]: [Not Secure] <ajha1304> hello
-[21:42:56] [Server thread/INFO]: BIGBEASTISHANK issued server command: /multiverse-core:mvmset
-[21:43:15] [Async Chat Thread - #5/INFO]: [Not Secure] <ajha1304> bro
-[21:43:17] [Server thread/INFO]: BIGBEASTISHANK issued server command: /multiverse-core:mvmadd
-[21:43:32] [Async Chat Thread - #4/INFO]: [Not Secure] <ajha1304> kidhar ho
-[21:43:43] [Async Chat Thread - #5/INFO]: [Not Secure] <ajha1304> find me
-[21:43:57] [Server thread/INFO]: BIGBEASTISHANK issued server command: /tp ajha1304
-[21:43:57] [Server thread/INFO]: [BIGBEASTISHANK: Teleported BIGBEASTISHANK to ajha1304]
-[21:44:02] [Server thread/INFO]: ajha1304 was slain by BIGBEASTISHANK
-[21:44:09] [Async Chat Thread - #4/INFO]: [Not Secure] <ajha1304> mf
-[21:44:39] [Server thread/INFO]: BIGBEASTISHANK was slain by ajha1304
-[21:44:49] [Async Chat Thread - #5/INFO]: [Not Secure] <ajha1304> gib head
-[21:45:09] [Server thread/INFO]: ajha1304 was slain by BIGBEASTISHANK
-[21:45:35] [Server thread/INFO]: ajha1304 was slain by BIGBEASTISHANK
-[21:46:02] [Async Chat Thread - #6/INFO]: [Not Secure] <ajha1304> piyush try restarting yiur router
-[21:46:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3501ms or 70 ticks behind
-[21:46:18] [Server thread/WARN]: ajha1304 moved too quickly! -2.675459999999987,0.0,14.612870000000001
-[21:46:35] [Async Chat Thread - #7/INFO]: [Not Secure] <ajha1304> gib diamond
-[21:46:57] [User Authenticator #4/INFO]: UUID of player SuspenseOp is e6b42208-a290-3cb1-a8d2-bfb29bae00e0
-[21:46:57] [Server thread/INFO]: SuspenseOp joined the game
-[21:46:57] [Server thread/INFO]: SuspenseOp[/[0:0:0:0:0:0:0:1%0]:51156] logged in with entity id 2370 at ([world]-307.5017364280063, 87.0, 95.78292734381324)
-[21:47:19] [Async Chat Thread - #6/INFO]: [Not Secure] <ajha1304> piyush chup rhna
-[21:47:40] [Server thread/INFO]: ajha1304 was slain by BIGBEASTISHANK
-[21:47:49] [Async Chat Thread - #6/INFO]: [Not Secure] <ajha1304> jhutha 
-[21:48:01] [Async Chat Thread - #7/INFO]: [Not Secure] <ajha1304> abhi bhi creative me tha
-[21:48:46] [Server thread/INFO]: ajha1304 issued server command: /tp home
-[21:48:57] [Async Chat Thread - #7/INFO]: [Not Secure] <ajha1304> tp home nhi ho rha
-[21:49:21] [Async Chat Thread - #6/INFO]: [Not Secure] <ajha1304> kaha ho tp me
-[21:49:22] [Server thread/INFO]: SuspenseOp issued server command: /trigger home
-[21:49:22] [Server thread/INFO]: [SuspenseOp: Triggered [Home]]
-[21:49:30] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
-[21:49:30] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
-[21:49:36] [Async Chat Thread - #7/INFO]: [Not Secure] <ajha1304> head
-[21:49:36] [Server thread/INFO]: ajha1304 was slain by BIGBEASTISHANK
-[21:49:51] [Async Chat Thread - #6/INFO]: [Not Secure] <ajha1304> i want head
-[21:50:15] [Server thread/INFO]: BIGBEASTISHANK issued server command: /ban ajha1304
-[21:50:15] [Server thread/INFO]: [BIGBEASTISHANK: Banned ajha1304: Banned by an operator.]
-[21:50:15] [Server thread/INFO]: ajha1304 lost connection: You are banned from this server
-[21:50:15] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] ajha1304 has disconnected from the Java server because of You are banned from this server
-[21:50:16] [Server thread/INFO]: ajha1304 left the game
-[21:50:33] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Ok
-[21:50:47] [Server thread/INFO]: BIGBEASTISHANK issued server command: /pardon ajha1304
-[21:50:47] [Server thread/INFO]: [BIGBEASTISHANK: Unbanned ajha1304]
-[21:50:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Acha kiya uska head chaiye tha bus
-[21:50:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Management] Piyush > @Ankita
-[21:50:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Koi na
-[21:51:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Management] Piyush > aja bhai
-[21:51:08] [Async Chat Thread - #8/INFO]: [Not Secure] <BIGBEASTISHANK> hta dei
-[21:51:11] [Async Chat Thread - #9/INFO]: [Not Secure] <BIGBEASTISHANK> unban kr die
-[21:51:16] [Async Chat Thread - #8/INFO]: [Not Secure] <BIGBEASTISHANK> aaja
-[21:51:35] [Server thread/INFO]: SuspenseOp was slain by BIGBEASTISHANK
-[21:52:03] [Server thread/INFO]: SuspenseOp was slain by BIGBEASTISHANK
-[21:52:06] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Bhai bura laga kasam se
-[21:52:07] [Server thread/INFO]: SuspenseOp was slain by BIGBEASTISHANK
-[21:52:10] [Async Chat Thread - #9/INFO]: [Not Secure] <BIGBEASTISHANK> aana re
-[21:52:14] [Async Chat Thread - #8/INFO]: [Not Secure] <BIGBEASTISHANK> sorry yrr
-[21:52:21] [Server thread/INFO]: SuspenseOp was slain by BIGBEASTISHANK
-[21:52:35] [Server thread/INFO]: SuspenseOp was slain by BIGBEASTISHANK
-[21:52:39] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Hum sala peko java banayenge
-[21:52:51] [Server thread/INFO]: SuspenseOp was slain by BIGBEASTISHANK
-[21:53:23] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
-[21:53:23] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
-[21:53:29] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.55.193.198:49557 tried to connect!
-[21:53:31] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Player connected with username ajha1304
-[21:53:31] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] ajha1304 (logged in as: ajha1304) has connected to the Java server
-[21:53:31] [User Authenticator #5/INFO]: UUID of player ajha1304 is 926d1512-3375-3515-94d2-891e64131925
-[21:53:31] [Server thread/INFO]: ajha1304 joined the game
-[21:53:31] [Server thread/INFO]: ajha1304[/127.55.193.198:0] logged in with entity id 3241 at ([world]-305.49387, 87.0, 111.267456)
-[21:53:37] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
-[21:53:37] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
-[21:54:13] [Server thread/INFO]: ajha1304 was slain by BIGBEASTISHANK
-[21:54:30] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
-[21:54:30] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
-[21:54:57] [Server thread/INFO]: BIGBEASTISHANK fell from a high place
-[21:55:12] [Async Chat Thread - #10/INFO]: [Not Secure] <ajha1304> hum pe ko java banayenge
-[21:55:35] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
-[21:55:35] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
-[21:56:02] [Server thread/INFO]: BIGBEASTISHANK issued server command: /tp SuspenseOp
-[21:56:02] [Server thread/INFO]: [BIGBEASTISHANK: Teleported BIGBEASTISHANK to SuspenseOp]
-[21:56:14] [Server thread/INFO]: SuspenseOp was slain by BIGBEASTISHANK
-[21:56:24] [Server thread/INFO]: ajha1304 was slain by BIGBEASTISHANK
-[21:56:34] [Async Chat Thread - #12/INFO]: [Not Secure] <ajha1304> hum sa,
-[21:56:46] [Async Chat Thread - #13/INFO]: [Not Secure] <ajha1304> sala pickaxe se combo karrhe
-[21:57:00] [Server thread/INFO]: ajha1304 was slain by SuspenseOp
-[21:57:01] [Async Chat Thread - #13/INFO]: [Not Secure] <ajha1304> hum be
-[21:57:15] [Server thread/INFO]: SuspenseOp was slain by ajha1304
-[21:57:16] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
-[21:57:16] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
-[21:57:24] [Server thread/INFO]: ajha1304 was slain by BIGBEASTISHANK
-[21:57:29] [Server thread/INFO]: BIGBEASTISHANK was slain by SuspenseOp
-[21:57:34] [Server thread/INFO]: SuspenseOp was slain by BIGBEASTISHANK
-[21:57:39] [Async Chat Thread - #12/INFO]: [Not Secure] <ajha1304> gibme one ex
-[21:57:47] [Async Chat Thread - #14/INFO]: [Not Secure] <ajha1304> my ex broke
-[21:57:50] [Server thread/INFO]: BIGBEASTISHANK was slain by SuspenseOp
-[21:58:16] [Server thread/INFO]: ajha1304 has made the advancement [Cover Me with Diamonds]
-[21:58:55] [Server thread/INFO]: SuspenseOp was slain by ajha1304
-[21:59:06] [Async Chat Thread - #15/INFO]: [Not Secure] <ajha1304> head
-[21:59:15] [Async Chat Thread - #16/INFO]: [Not Secure] <ajha1304> nhi to
-[21:59:55] [Async Chat Thread - #16/INFO]: [Not Secure] <ajha1304> halp
-[22:00:00] [Async Chat Thread - #15/INFO]: [Not Secure] <ajha1304> kho gaye
-[22:00:07] [Server thread/INFO]: ajha1304 drowned
-[22:01:15] [Async Chat Thread - #17/INFO]: [Not Secure] <ajha1304> bhai villager sex kar rha
-[22:01:37] [Async Chat Thread - #18/INFO]: [Not Secure] <ajha1304> bhai marne aagya
-[22:01:59] [Server thread/INFO]: BIGBEASTISHANK issued server command: /datapack
-[22:02:11] [Server thread/INFO]: BIGBEASTISHANK issued server command: /datapack reload
-[22:02:18] [Server thread/INFO]: BIGBEASTISHANK issued server command: /datapack disable
-[22:02:54] [Server thread/INFO]: ajha1304 has made the advancement [The Parrots and the Bats]
-[22:03:18] [Async Chat Thread - #19/INFO]: [Not Secure] <ajha1304>  bhai bee bhi sex karliya
-[22:03:38] [Async Chat Thread - #19/INFO]: [Not Secure] <ajha1304> humko
-[22:03:58] [Server thread/INFO]: BIGBEASTISHANK issued server command: /tp -306.52
-[22:04:03] [Server thread/INFO]: BIGBEASTISHANK issued server command: /tp SuspenseOp
-[22:04:03] [Server thread/INFO]: [BIGBEASTISHANK: Teleported BIGBEASTISHANK to SuspenseOp]
-[22:04:14] [Server thread/INFO]: BIGBEASTISHANK has made the advancement [Best Friends Forever]
-[22:04:19] [Server thread/INFO]: BIGBEASTISHANK issued server command: /deop @a
-[22:04:20] [Server thread/INFO]: [BIGBEASTISHANK: Made BIGBEASTISHANK no longer a server operator]
-[22:04:22] [Async Chat Thread - #20/INFO]: [Not Secure] <ajha1304> humko bui ek
-[22:04:35] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
-[22:04:35] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
-[22:04:59] [Async Chat Thread - #19/INFO]: [Not Secure] <ajha1304> bbi dekho
-[22:06:08] [Server thread/INFO]: BIGBEASTISHANK lost connection: Disconnected
-[22:06:08] [Server thread/INFO]: BIGBEASTISHANK left the game
-[22:06:49] [Async Chat Thread - #21/INFO]: [Not Secure] <ajha1304> piyush where are you
-[22:07:00] [Server thread/INFO]: SuspenseOp issued server command: /trigger home
-[22:07:00] [Server thread/INFO]: [SuspenseOp: Triggered [Home]]
-[22:07:08] [Server thread/INFO]: Villager EntityVillager['Villager'/25, uuid='45774958-194e-4e7e-bd70-842634442587', l='ServerLevel[world]', x=-335.83, y=103.00, z=160.70, cpos=[-21, 10], tl=455032, v=true] died, message: 'Villager was slain by Zombie'
-[22:07:15] [Async Chat Thread - #21/INFO]: [Not Secure] <ajha1304> ab batao kya banana hai
-[22:07:52] [Async Chat Thread - #21/INFO]: [Not Secure] <ajha1304> mera ek photo gichn
-[22:08:19] [Async Chat Thread - #21/INFO]: [Not Secure] <ajha1304> merq skin kya hai
-[22:09:20] [Server thread/INFO]: ajha1304 fell from a high place
-[22:14:21] [Async Chat Thread - #23/INFO]: [Not Secure] <ajha1304> wheat hai ...?
-[22:15:27] [Async Chat Thread - #25/INFO]: [Not Secure] <ajha1304> hum le aate
-[22:17:58] [Async Chat Thread - #27/INFO]: [Not Secure] <ajha1304> i am down of you
-[22:18:24] [Async Chat Thread - #28/INFO]: [Not Secure] <ajha1304> arre niche dekho
-[22:18:41] [Async Chat Thread - #28/INFO]: [Not Secure] <ajha1304> see down
-[22:18:54] [Async Chat Thread - #27/INFO]: [Not Secure] <ajha1304> piche cave
-[22:19:29] [Server thread/INFO]: ajha1304 fell from a high place
-[22:19:41] [Server thread/INFO]: SuspenseOp was slain by Spider
-[22:19:50] [Async Chat Thread - #27/INFO]: [Not Secure] <ajha1304> lol
-[22:20:33] [Async Chat Thread - #28/INFO]: [Not Secure] <ajha1304> moop
-[22:20:45] [Async Chat Thread - #28/INFO]: [Not Secure] <ajha1304> moo
-[22:21:12] [Async Chat Thread - #27/INFO]: [Not Secure] <ajha1304> moo
-[22:21:42] [Async Chat Thread - #28/INFO]: [Not Secure] <ajha1304> moo
-[22:22:06] [Async Chat Thread - #27/INFO]: [Not Secure] <ajha1304> my bacha
-[22:22:24] [Async Chat Thread - #27/INFO]: [Not Secure] <ajha1304> see my baby
-[22:22:40] [Async Chat Thread - #28/INFO]: [Not Secure] <ajha1304> seed plz
-[22:23:44] [Async Chat Thread - #29/INFO]: [Not Secure] <ajha1304> bucket..?
-[22:24:18] [Async Chat Thread - #29/INFO]: [Not Secure] <ajha1304> kitna
-[22:24:28] [Async Chat Thread - #29/INFO]: [Not Secure] <ajha1304> mere pass hai
-[22:25:15] [Async Chat Thread - #30/INFO]: [Not Secure] <ajha1304> idhar
-[22:25:31] [Async Chat Thread - #29/INFO]: [Not Secure] <ajha1304> bucket
-[22:27:48] [Async Chat Thread - #31/INFO]: [Not Secure] <ajha1304> bro you have pink log
-[22:28:14] [Async Chat Thread - #32/INFO]: [Not Secure] <ajha1304> ask ishnak
-[22:28:44] [Async Chat Thread - #31/INFO]: [Not Secure] <ajha1304> kill me
-[22:28:51] [Server thread/INFO]: ajha1304 was slain by SuspenseOp
-[22:31:18] [Server thread/INFO]: SuspenseOp was killed
-[22:31:18] [Server thread/INFO]: ajha1304 was killed
-[22:31:18] [Server thread/INFO]: Killed 2 entities
-[22:31:20] [Server thread/INFO]: Killed 2 entities
-[22:31:20] [Server thread/INFO]: Killed 2 entities
-[22:31:21] [Server thread/INFO]: Killed 2 entities
-[22:31:40] [Server thread/INFO]: Unknown or incomplete command, see below for error
-me<--[HERE]
-[22:31:41] [Server thread/INFO]: A player is required to run this command here
-[22:31:43] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[22:31:45] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[22:31:52] [Async Chat Thread - #33/INFO]: [Not Secure] <ajha1304> your iron
-[22:31:52] [Async Chat Thread - #35/INFO]: [Not Secure] <ajha1304> gave you
-[22:31:57] [Server thread/WARN]: SuspenseOp moved too quickly! 9.984266293462497,2.176759275064242,-0.11895711582069168
-[22:32:13] [Async Chat Thread - #33/INFO]: [Not Secure] <ajha1304> bbi once 
-[22:32:20] [Async Chat Thread - #33/INFO]: [Not Secure] <ajha1304> give all pink log
-[22:32:25] [Server thread/INFO]: ajha1304 was killed
-[22:32:25] [Server thread/INFO]: SuspenseOp was killed
-[22:32:25] [Server thread/INFO]: Killed 2 entities
-[22:32:42] [Async Chat Thread - #35/INFO]: [Not Secure] <ajha1304> plz give pink log
-[22:32:48] [Server thread/INFO]: SuspenseOp was killed
-[22:32:48] [Server thread/INFO]: ajha1304 was killed
-[22:32:48] [Server thread/INFO]: Killed 2 entities
-[22:33:20] [Async Chat Thread - #35/INFO]: [Not Secure] <ajha1304> bbi give
-[22:33:25] [Async Chat Thread - #33/INFO]: [Not Secure] <ajha1304> pink log
-[22:33:59] [Server thread/INFO]: Gave 1 [Golden Shovel] to SuspenseOp
-[22:34:05] [Async Chat Thread - #35/INFO]: [Not Secure] <ajha1304> dekho kkrh hum
-[22:34:08] [Server thread/INFO]: Gave 1 [Golden Shovel] to SuspenseOp
-[22:34:09] [Server thread/INFO]: Gave 1 [Golden Shovel] to SuspenseOp
-[22:35:20] [User Authenticator #6/INFO]: UUID of player BIGBEASTISHANK is 53a3fdc7-56b7-3745-9569-a972de0a4fea
-[22:35:20] [Server thread/INFO]: BIGBEASTISHANK joined the game
-[22:35:20] [Server thread/INFO]: BIGBEASTISHANK[/127.206.153.239:48549] logged in with entity id 10255 at ([world]-299.30000001192093, 87.0, 109.69999998807907)
-[22:35:46] [Server thread/INFO]: BIGBEASTISHANK was slain by ajha1304
-[22:35:56] [Async Chat Thread - #36/INFO]: [Not Secure] <ajha1304> help
-[22:36:07] [Server thread/INFO]: ajha1304 was slain by BIGBEASTISHANK
-[22:36:44] [Async Chat Thread - #37/INFO]: [Not Secure] <ajha1304> isha k 
-[22:36:50] [Async Chat Thread - #36/INFO]: [Not Secure] <ajha1304> ishnk glass give
-[22:37:02] [Server thread/INFO]: SuspenseOp was slain by Wolf
-[22:37:35] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
-[22:37:35] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
-[22:38:14] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] ajha1304 has disconnected from the Java server because of Bedrock client timed out
-[22:38:14] [Server thread/INFO]: ajha1304 lost connection: Disconnected
-[22:38:15] [Server thread/INFO]: ajha1304 left the game
-[22:38:57] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpa add 1
-[22:38:57] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpa] (added 1 to value)]
-[22:38:59] [Server thread/INFO]: SuspenseOp issued server command: /trigger tpaccept
-[22:38:59] [Server thread/INFO]: [SuspenseOp: Triggered [tpaccept]]
-[22:39:11] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.55.193.198:59719 tried to connect!
-[22:39:13] [epollEventLoopGroup-3-3/INFO]: [Geyser-Spigot] Player connected with username ajha1304
-[22:39:13] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] ajha1304 (logged in as: ajha1304) has connected to the Java server
-[22:39:13] [User Authenticator #7/INFO]: UUID of player ajha1304 is 926d1512-3375-3515-94d2-891e64131925
-[22:39:13] [Server thread/INFO]: ajha1304 joined the game
-[22:39:13] [Server thread/INFO]: ajha1304[/127.55.193.198:0] logged in with entity id 10915 at ([world]-313.979, 81.0, 99.6762)
-[22:41:00] [Server thread/INFO]: BIGBEASTISHANK fell from a high place
-[22:41:24] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] ajha1304 has disconnected from the Java server because of Bedrock client timed out
-[22:41:24] [Server thread/INFO]: ajha1304 lost connection: Disconnected
-[22:41:24] [Server thread/INFO]: ajha1304 left the game
-[22:41:44] [Server thread/INFO]: BIGBEASTISHANK lost connection: Timed out
-[22:41:44] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.55.193.198:59719 tried to connect!
-[22:41:44] [Server thread/INFO]: BIGBEASTISHANK left the game
-[22:41:46] [User Authenticator #8/INFO]: UUID of player BIGBEASTISHANK is 53a3fdc7-56b7-3745-9569-a972de0a4fea
-[22:41:47] [Server thread/INFO]: BIGBEASTISHANK joined the game
-[22:41:47] [Server thread/INFO]: BIGBEASTISHANK[/127.206.153.239:50981] logged in with entity id 11260 at ([world]-290.5597377999386, 78.0, 88.66915357578021)
-[22:41:47] [epollEventLoopGroup-3-4/INFO]: [Geyser-Spigot] Player connected with username ajha1304
-[22:41:47] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] ajha1304 (logged in as: ajha1304) has connected to the Java server
-[22:41:47] [User Authenticator #8/INFO]: UUID of player ajha1304 is 926d1512-3375-3515-94d2-891e64131925
-[22:41:47] [Server thread/INFO]: ajha1304 joined the game
-[22:41:47] [Server thread/INFO]: ajha1304[/127.55.193.198:0] logged in with entity id 11261 at ([world]-324.3, 81.0, 89.30001)
-[22:42:53] [Async Chat Thread - #38/INFO]: [Not Secure] <ajha1304> gib pink ladki
-[22:44:20] [Async Chat Thread - #40/INFO]: [Not Secure] <ajha1304> gib glass bbi
-[22:44:39] [Async Chat Thread - #41/INFO]: [Not Secure] <ajha1304> plz glass do
-[22:45:30] [Async Chat Thread - #40/INFO]: [Not Secure] <ajha1304> bhai ye farm hatana padega
-[22:45:37] [Async Chat Thread - #41/INFO]: [Not Secure] <ajha1304> suspense
-[22:45:49] [Async Chat Thread - #40/INFO]: [Not Secure] <ajha1304> bedroom banega
-[22:46:01] [Async Chat Thread - #40/INFO]: [Not Secure] <ajha1304> animal wala
-[22:46:08] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tp set 1
-[22:46:12] [Async Chat Thread - #41/INFO]: [Not Secure] <ajha1304> ok
-[22:46:15] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpa set 1
-[22:46:15] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpa] (set value to 1)]
-[22:46:17] [Async Chat Thread - #41/INFO]: [Not Secure] <ajha1304> bhai aaj ratme
-[22:46:21] [Async Chat Thread - #41/INFO]: [Not Secure] <ajha1304> kheloge
-[22:46:27] [Server thread/INFO]: SuspenseOp issued server command: /trigger tpaccept
-[22:46:27] [Server thread/INFO]: [SuspenseOp: Triggered [tpaccept]]
-[22:46:44] [Async Chat Thread - #41/INFO]: [Not Secure] <ajha1304> find minecraft:desert
-[22:47:15] [Server thread/INFO]: SuspenseOp issued server command: /trigger home
-[22:47:15] [Server thread/INFO]: [SuspenseOp: Triggered [Home]]
-[22:48:00] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
-[22:48:00] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
-[22:48:02] [Server thread/INFO]: ajha1304 has made the advancement [Diamonds!]
-[22:48:39] [Async Chat Thread - #42/INFO]: [Not Secure] <ajha1304> humko bhinkaro tp
-[22:49:11] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] ajha1304 has disconnected from the Java server because of Bedrock client disconnected
-[22:49:11] [Server thread/INFO]: ajha1304 lost connection: Disconnected
-[22:49:12] [Server thread/INFO]: ajha1304 left the game
-[22:49:33] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Aarhe
-[22:49:36] [Async Chat Thread - #43/INFO]: [Not Secure] <BIGBEASTISHANK> ok
-[22:49:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Bro raat me bhi khelna plz
-[22:49:49] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > @Piyush
-[22:49:51] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > @bigbeastishank
-[22:49:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Nhi
-[22:56:48] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Piyush why you streaming tera pc lag nhi kar rha
-[22:57:05] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Yes
-[22:59:55] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.55.193.198:52597 tried to connect!
-[22:59:57] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Player connected with username ajha1304
-[22:59:57] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] ajha1304 (logged in as: ajha1304) has connected to the Java server
-[22:59:57] [User Authenticator #9/INFO]: UUID of player ajha1304 is 926d1512-3375-3515-94d2-891e64131925
-[22:59:57] [Server thread/INFO]: ajha1304 joined the game
-[22:59:57] [Server thread/INFO]: ajha1304[/127.55.193.198:0] logged in with entity id 13900 at ([world]-376.69999, -6.0, 106.69999)
-[23:01:10] [Async Chat Thread - #44/INFO]: [Not Secure] <ajha1304> help
-[23:01:14] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] ajha1304 has disconnected from the Java server because of Bedrock client disconnected
-[23:01:14] [Server thread/INFO]: ajha1304 lost connection: Disconnected
-[23:01:14] [Server thread/INFO]: ajha1304 left the game
-[23:01:31] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.55.193.198:52597 tried to connect!
-[23:01:31] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpa add 1
-[23:01:31] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpa] (added 1 to value)]
-[23:01:33] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Player connected with username ajha1304
-[23:01:33] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] ajha1304 (logged in as: ajha1304) has connected to the Java server
-[23:01:33] [User Authenticator #10/INFO]: UUID of player ajha1304 is 926d1512-3375-3515-94d2-891e64131925
-[23:01:33] [Server thread/INFO]: ajha1304 joined the game
-[23:01:33] [Server thread/INFO]: ajha1304[/127.55.193.198:0] logged in with entity id 14927 at ([world]-282.43295, -2.0, 108.38194)
-[23:01:36] [Server thread/INFO]: SuspenseOp issued server command: /trigger tpaccept
-[23:01:36] [Server thread/INFO]: [SuspenseOp: Triggered [tpaccept]]
-[23:01:43] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
-[23:01:43] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
-[23:01:50] [Server thread/INFO]: SuspenseOp issued server command: /trigger home
-[23:01:50] [Server thread/INFO]: [SuspenseOp: Triggered [Home]]
-[23:02:23] [Server thread/INFO]: Gave 64 [Bread] to BIGBEASTISHANK
-[23:02:24] [Async Chat Thread - #46/INFO]: [Not Secure] <ajha1304> plz tp me
-[23:02:41] [Async Chat Thread - #47/INFO]: [Not Secure] <ajha1304> tp me
-[23:03:14] [Server thread/INFO]: ajha1304 issued server command: /trigger tpa@1
-[23:03:37] [Server thread/INFO]: ajha1304 issued server command: /trigger home
-[23:03:37] [Server thread/INFO]: [ajha1304: Triggered [Home]]
-[23:03:57] [Async Chat Thread - #48/INFO]: [Not Secure] <ajha1304> lag
-[23:04:12] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpa add 1
-[23:04:12] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpa] (added 1 to value)]
-[23:04:15] [Async Chat Thread - #49/INFO]: [Not Secure] <ajha1304> bar bar ek jagah tp horhe
-[23:04:27] [Server thread/INFO]: SuspenseOp issued server command: /trigger tpaccept
-[23:04:27] [Server thread/INFO]: [SuspenseOp: Triggered [tpaccept]]
-[23:04:36] [Server thread/INFO]: ajha1304 issued server command: /trigger tpa @1
-[23:04:41] [Server thread/WARN]: ajha1304 moved too quickly! 16.769769999999994,0.07840000000000025,0.09878000000000497
-[23:04:55] [Server thread/INFO]: ajha1304 was killed
-[23:04:55] [Server thread/INFO]: Killed ajha1304
-[23:05:27] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] ajha1304 has disconnected from the Java server because of Bedrock client disconnected
-[23:05:27] [Server thread/INFO]: ajha1304 lost connection: Disconnected
-[23:05:27] [Server thread/INFO]: ajha1304 left the game
-[23:05:32] [Server thread/INFO]: SuspenseOp was slain by BIGBEASTISHANK
-[23:05:36] [Server thread/INFO]: SuspenseOp lost connection: Disconnected
-[23:05:36] [Server thread/INFO]: SuspenseOp left the game
-[23:05:51] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.55.193.198:52597 tried to connect!
-[23:05:53] [epollEventLoopGroup-3-3/INFO]: [Geyser-Spigot] Player connected with username ajha1304
-[23:05:53] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] ajha1304 (logged in as: ajha1304) has connected to the Java server
-[23:05:53] [User Authenticator #11/INFO]: UUID of player ajha1304 is 926d1512-3375-3515-94d2-891e64131925
-[23:05:53] [Server thread/INFO]: ajha1304 joined the game
-[23:05:53] [Server thread/INFO]: ajha1304[/127.55.193.198:0] logged in with entity id 15605 at ([world]-318.11542, -4.0, 106.69999)
-[23:06:09] [Server thread/INFO]: BIGBEASTISHANK lost connection: Disconnected
-[23:06:10] [Server thread/INFO]: BIGBEASTISHANK left the game
-[23:06:26] [Async Chat Thread - #50/INFO]: [Not Secure] <ajha1304>  ooye
-[23:06:47] [Server thread/WARN]: ajha1304 moved wrongly!
-[23:06:48] [Server thread/WARN]: ajha1304 moved wrongly!
-[23:07:18] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] ajha1304 has disconnected from the Java server because of Bedrock client timed out
-[23:07:18] [Server thread/INFO]: ajha1304 lost connection: Disconnected
-[23:07:18] [Server thread/INFO]: ajha1304 left the game
-[23:16:24] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[23:16:27] [Server thread/INFO]: Stopping the server
-[23:16:27] [Server thread/INFO]: Stopping server
-[23:16:27] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.0-SNAPSHOT
-[23:16:27] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[23:16:27] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[23:16:27] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.2
-[23:16:34] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Saved linked accounts in 7308ms
-[23:16:35] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 8333ms
-[23:16:35] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0-beta-03+d6d222e
-[23:16:35] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[23:16:35] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
-[23:16:35] [Server thread/INFO]: Saving players
-[23:16:35] [Server thread/INFO]: Saving worlds
-[23:16:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:16:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[23:16:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[23:16:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[23:16:36] [Server thread/INFO]: [ChunkHolderManager] Saved 210 block chunks, 269 entity chunks, 3 poi chunks in world 'world' in 0.54s
-[23:17:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:17:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[23:17:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[23:17:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[23:17:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[23:17:04] [Server thread/INFO]: [ChunkHolderManager] Saved 665 block chunks, 22 entity chunks, 0 poi chunks in world 'world_nether' in 1.17s
-[23:17:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:17:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[23:17:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[23:17:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[23:17:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[23:17:09] [Server thread/INFO]: [ChunkHolderManager] Saved 731 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.92s
-[23:17:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:17:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:17:12] [Server thread/INFO]: Flushing Chunk IO
-[23:17:12] [Server thread/INFO]: Closing Thread Pool
-[23:17:12] [Server thread/INFO]: Closing Server
+[16:59:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[17:00:00] [Server thread/INFO]: Default game type: SURVIVAL
+[17:00:00] [Server thread/INFO]: Generating keypair
+[17:00:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:00:00] [Server thread/INFO]: Using epoll channel type
+[17:00:00] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:00:00] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[17:00:01] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[17:00:01] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0-beta-03+d6d222e
+[17:00:02] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6b038a70]
+[17:00:02] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.26.2
+[17:00:02] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.2.0-SNAPSHOT
+[17:00:10] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[17:00:10] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[17:00:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:00:11] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0-beta-03+d6d222e
+[17:00:11] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:00:11] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:00:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[17:00:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:00:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:00:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:00:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:00:13] [Server thread/INFO]: Preparing level "world"
+[17:00:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:00:18] [Server thread/INFO]: Time elapsed: 2522 ms
+[17:00:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:00:18] [Server thread/INFO]: Time elapsed: 50 ms
+[17:00:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:00:18] [Server thread/INFO]: Time elapsed: 40 ms
+[17:00:18] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[17:00:18] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[17:00:18] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[17:00:33] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[17:00:33] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[17:00:33] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[17:00:33] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.2
+[17:00:33] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.2.0-SNAPSHOT
+[17:00:34] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:00:34] [Server thread/INFO]: [Geyser-Spigot] 
+[17:00:34] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.2.0-SNAPSHOT (git-master-cdb8ab3)
+[17:00:34] [Server thread/INFO]: [Geyser-Spigot] 
+[17:00:34] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:00:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[17:00:37] [pool-16-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (767828469573c2f0fa3ed5a44feb0b2f15f2c02d)
+[17:00:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[17:00:39] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:BIG BEAST ISHANK's Server(791350584597807137)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📜rules(791541193048719361)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📣server-announcement(823058506524393483)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🚪door(1176749456750809108)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:⭐self-roles(1183090188117884928)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎥youtube-video(1183110979987443842)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📣bot-update(1176623868543258674)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔗joined-server(1177889744663887912)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:❗bot-errors(1177890074512338984)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💬chat(823058061165985812)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:⚙bot-cmds(1176617603817549906)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🗿memes(1183112309732814978)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🥇rank-up(1176617417359765614)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔞nsfw(1181993408965918853)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🗣clever-bot-chat(1183332994660962375)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🗣shuttle-ai-chat(1183336677574463569)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎼music-talk(1185918400053133483)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:⌨music-commands(1176906993311686678)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📜study-chat(1187342781543358515)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💻coder-chat(1183444943709155448)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🤝help(1176881901332598784)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:👾game-dev(1176882299657273364)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🌐web-dev(1176881848987680858)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🌑dark-web(1183088913007521872)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🕹game-talk(1183094491817721998)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔨minecraft-chat(1188087968968216607)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💬meeting-chat(1176618735415607326)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📩bbidotcom-contact-entries(1187807041683734628)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📒logs(1186622086110781491)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💯testing(1176941593161388094)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:⛓jail(1183097313359568956)
+[17:00:39] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
+[17:00:40] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[17:00:40] [Server thread/INFO]: [Geyser-Spigot] Done (5.89s)! Run /geyser help for help!
+[17:00:40] [Server thread/INFO]: Running delayed init tasks
+[17:00:40] [Server thread/INFO]: Done (53.801s)! For help, type "help"
+[17:00:40] [Server thread/INFO]: Timings Reset
+[17:00:40] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[17:00:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2529ms or 50 ticks behind
+[17:10:52] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[17:10:52] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[17:10:52] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:10:52] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:10:52] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:10:52] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:10:52] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[17:10:52] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.DeflaterOutputStream.flush(DeflaterOutputStream.java:290)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:253)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.DataOutputStream.flush(DataOutputStream.java:131)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:184)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:194)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:146)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:616)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:607)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1504)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1539)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f2de4b8c240.run(Unknown Source)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[17:10:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[17:10:52] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:10:52] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:10:52] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:10:57] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[17:10:57] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[17:10:57] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:10:57] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:10:57] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:10:57] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:10:57] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[17:10:57] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open0(Native Method)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open(UnixNativeDispatcher.java:72)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.open(UnixChannelFactory.java:258)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:133)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:146)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:259)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.newOutputStream(Files.java:227)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:140)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.saveddata.SavedData.save(SavedData.java:39)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.DimensionDataStorage.lambda$save$0(DimensionDataStorage.java:124)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.WorldPersistentData$$Lambda/0x00007f2de581f8f0.accept(Unknown Source)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.HashMap.forEach(HashMap.java:1429)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.DimensionDataStorage.save(DimensionDataStorage.java:122)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveLevelData(ServerLevel.java:1554)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1490)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1539)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f2de4b8c240.run(Unknown Source)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[17:10:57] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[17:10:57] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:10:57] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:10:57] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:10:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15300ms or 306 ticks behind
+[17:19:35] [User Authenticator #0/INFO]: UUID of player SuspenseOp is e6b42208-a290-3cb1-a8d2-bfb29bae00e0
+[17:19:37] [Server thread/INFO]: SuspenseOp joined the game
+[17:19:37] [Server thread/INFO]: SuspenseOp[/127.178.56.46:59087] logged in with entity id 317 at ([world]-314.5, 81.0, 91.5)
+[17:19:38] [Craft Scheduler Thread - 5 - DiscordSRV/ERROR]: [DiscordSRV] Your AvatarUrl config option does not contain the {username} placeholder even though this server is using offline UUIDs.
+[17:19:38] [Craft Scheduler Thread - 5 - DiscordSRV/ERROR]: [DiscordSRV] https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} will be used because the default value does not support offline mode servers
+[17:19:38] [Craft Scheduler Thread - 5 - DiscordSRV/ERROR]: [DiscordSRV] You should set your AvatarUrl (in config.yml) to https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} (or another url that supports usernames) to get rid of this error
+[17:21:46] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.77.51.94:57600 tried to connect!
+[17:21:48] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Player connected with username SwankDaxter
+[17:21:48] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] SwankDaxter (logged in as: SwankDaxter) has connected to the Java server
+[17:21:48] [User Authenticator #1/INFO]: UUID of player SwankDaxter is 43669759-d9e7-3027-a006-495d55bf9e96
+[17:21:48] [Server thread/INFO]: SwankDaxter joined the game
+[17:21:48] [Server thread/INFO]: SwankDaxter[/127.77.51.94:0] logged in with entity id 726 at ([world]-203.30001, 64.0, 176.607)
+[17:22:09] [Async Chat Thread - #1/INFO]: [Not Secure] <SuspenseOp> who?
+[17:22:16] [Async Chat Thread - #1/INFO]: [Not Secure] <SwankDaxter> me kreesh
+[17:22:21] [Async Chat Thread - #0/INFO]: [Not Secure] <SuspenseOp> k
+[17:22:44] [Server thread/INFO]: SwankDaxter drowned
+[17:23:54] [Server thread/WARN]: SuspenseOp moved too quickly! 12.628390452039724,0.9031272476744903,-6.48907095623332
+[17:24:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4189ms or 83 ticks behind
+[17:24:06] [Server thread/WARN]: SuspenseOp moved too quickly! 6.264398050537622,-1.0,-8.592476254561348
+[17:28:02] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | BIG BEAST] bigbeastishank > hi kreesh
+[17:28:21] [Async Chat Thread - #2/INFO]: [Not Secure] <SwankDaxter> hello?
+[17:29:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5583ms or 111 ticks behind
+[17:29:57] [Server thread/WARN]: SuspenseOp moved too quickly! 6.21934951326773,-3.0,-22.78546508573774
+[17:30:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4029ms or 80 ticks behind
+[17:30:44] [Async Chat Thread - #4/INFO]: [Not Secure] <SuspenseOp> can you sleep
+[17:30:59] [Async Chat Thread - #4/INFO]: [Not Secure] <SwankDaxter> wait a sec
+[17:32:06] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] SwankDaxter has disconnected from the Java server because of Bedrock client timed out
+[17:32:06] [Server thread/INFO]: SwankDaxter lost connection: Disconnected
+[17:32:07] [Server thread/INFO]: SwankDaxter left the game
+[17:32:07] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] System DNS FAILED to resolve hostname discord.com, switching to fallback DNS servers!
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 1.1.1.1 failed to resolve discord.com
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException: Network is unreachable, Network is unreachable
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException.throwIfRequired(MultipleIoException.java:57)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:79)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:34)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:250)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:234)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:372)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:341)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.DiscordSRV$2.lookupPublic(DiscordSRV.java:663)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.DiscordSRV$2.lookup(DiscordSRV.java:658)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:185)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:149)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:214)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 1.0.0.1 failed to resolve discord.com
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException: Network is unreachable, Network is unreachable
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException.throwIfRequired(MultipleIoException.java:57)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:79)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:34)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:250)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:234)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:372)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:341)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.DiscordSRV$2.lookupPublic(DiscordSRV.java:663)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.DiscordSRV$2.lookup(DiscordSRV.java:658)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:185)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:149)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:214)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 8.8.8.8 failed to resolve discord.com
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException: Network is unreachable, Network is unreachable
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException.throwIfRequired(MultipleIoException.java:57)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:79)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:34)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:250)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:234)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:372)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:341)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.DiscordSRV$2.lookupPublic(DiscordSRV.java:663)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.DiscordSRV$2.lookup(DiscordSRV.java:658)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:185)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:149)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:214)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 8.8.4.4 failed to resolve discord.com
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException: Network is unreachable, Network is unreachable
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException.throwIfRequired(MultipleIoException.java:57)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:79)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:34)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:250)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:234)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:372)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:341)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.DiscordSRV$2.lookupPublic(DiscordSRV.java:663)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.DiscordSRV$2.lookup(DiscordSRV.java:658)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:185)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:149)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:214)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.26.2.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[17:32:08] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] [JDA] DNS resolution failed: All DNS resolvers failed to resolve hostname discord.com. Not good.
+[17:32:08] [DiscordSRV - JDA Callback 0/ERROR]: [DiscordSRV] Failed to send message to channel TC:🔨minecraft-chat(1188087968968216607): -1: java.net.UnknownHostException
+[17:32:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | BIG BEAST] bigbeastishank > hi
+[17:32:30] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.77.51.94:57600 tried to connect!
+[17:32:31] [epollEventLoopGroup-3-3/INFO]: [Geyser-Spigot] Player connected with username SwankDaxter
+[17:32:31] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] SwankDaxter (logged in as: SwankDaxter) has connected to the Java server
+[17:32:31] [User Authenticator #2/INFO]: UUID of player SwankDaxter is 43669759-d9e7-3027-a006-495d55bf9e96
+[17:32:31] [Server thread/INFO]: SwankDaxter joined the game
+[17:32:31] [Server thread/INFO]: SwankDaxter[/127.77.51.94:0] logged in with entity id 5593 at ([world]-311.21503, 87.0, 76.17698)
+[17:32:50] [Server thread/INFO]: SwankDaxter has made the advancement [Sweet Dreams]
+[17:34:37] [Server thread/INFO]: SwankDaxter has made the advancement [A Seedy Place]
+[17:41:21] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[17:41:21] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[17:41:21] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:41:21] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:41:21] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:41:21] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:41:21] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[17:41:21] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.DeflaterOutputStream.flush(DeflaterOutputStream.java:290)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:253)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.DataOutputStream.flush(DataOutputStream.java:131)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:184)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:194)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:146)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:616)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:607)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1504)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1539)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f2de4b8c240.run(Unknown Source)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[17:41:21] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[17:41:21] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:41:21] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:41:21] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:41:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12232ms or 244 ticks behind
+[17:41:23] [Server thread/WARN]: SwankDaxter moved too quickly! 17.209051000000002,-2.0,-27.102329999999995
+[17:42:53] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[17:42:54] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[17:42:54] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:42:54] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:42:54] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:42:54] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:42:54] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[17:42:54] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FileDescriptor.close0(Native Method)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FileDescriptor.close(FileDescriptor.java:293)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FileDescriptor$1.close(FileDescriptor.java:88)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl$Closer.run(FileChannelImpl.java:116)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		java.base@21/jdk.internal.ref.CleanerImpl$PhantomCleanableRef.performCleanup(CleanerImpl.java:178)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		java.base@21/jdk.internal.ref.PhantomCleanable.clean(PhantomCleanable.java:133)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.implCloseChannel(FileChannelImpl.java:210)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.channels.spi.AbstractInterruptibleChannel.close(AbstractInterruptibleChannel.java:113)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.createFile(Files.java:657)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.TempFileHelper.create(TempFileHelper.java:136)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.createTempFile(Files.java:878)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:42)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$saveAll$2(PlayerList.java:1239)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda/0x00007f2de57d39d8.get(Unknown Source)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:380)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1232)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1535)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f2de4b8c240.run(Unknown Source)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[17:42:54] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[17:42:54] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:42:54] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:42:54] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:42:58] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[17:42:58] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[17:42:58] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:42:59] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:42:59] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:42:59] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:42:59] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[17:42:59] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open0(Native Method)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open(UnixNativeDispatcher.java:72)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.open(UnixChannelFactory.java:258)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:133)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:146)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:259)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.newOutputStream(Files.java:227)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:140)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:44)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$saveAll$2(PlayerList.java:1239)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda/0x00007f2de57d39d8.get(Unknown Source)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:380)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1232)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1535)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f2de4b8c240.run(Unknown Source)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[17:42:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[17:42:59] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:42:59] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:42:59] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:43:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18510ms or 370 ticks behind
+[17:43:02] [Server thread/WARN]: SuspenseOp moved too quickly! -0.062185984589291365,0.49520087700592796,10.02285339152786
+[17:44:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Hi bro
+[17:44:30] [Async Chat Thread - #6/INFO]: [Not Secure] <SuspenseOp> hola
+[17:46:17] [Server thread/WARN]: SuspenseOp was kicked due to keepalive timeout!
+[17:46:17] [Server thread/INFO]: SuspenseOp lost connection: Timed out
+[17:46:19] [Server thread/INFO]: SuspenseOp left the game
+[17:46:38] [User Authenticator #3/INFO]: UUID of player SuspenseOp is e6b42208-a290-3cb1-a8d2-bfb29bae00e0
+[17:46:40] [Server thread/INFO]: SuspenseOp joined the game
+[17:46:40] [Server thread/INFO]: SuspenseOp[/127.178.56.46:52501] logged in with entity id 10995 at ([world]687.4319171499661, 101.0, 673.2099959522519)
+[17:48:24] [Server thread/WARN]: SwankDaxter moved wrongly!
+[17:49:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > What you doin
+[17:50:49] [User Authenticator #4/INFO]: UUID of player BIGBEASTISHANK is 53a3fdc7-56b7-3745-9569-a972de0a4fea
+[17:50:49] [Server thread/INFO]: BIGBEASTISHANK joined the game
+[17:50:49] [Server thread/INFO]: BIGBEASTISHANK[/127.206.153.239:36799] logged in with entity id 12731 at ([world]-320.20728053830516, 87.0, 83.12653396022587)
+[17:51:29] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpa add 1
+[17:51:29] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpa] (added 1 to value)]
+[17:51:37] [Server thread/INFO]: SuspenseOp issued server command: /trigger tpaccept
+[17:51:37] [Server thread/INFO]: [SuspenseOp: Triggered [tpaccept]]
+[17:52:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Re
+[17:52:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Hello
+[17:52:12] [Async Chat Thread - #8/INFO]: [Not Secure] <BIGBEASTISHANK> bl
+[17:52:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4916ms or 98 ticks behind
+[17:52:22] [Server thread/WARN]: SuspenseOp moved too quickly! -20.26535461969064,-3.1661092609382138,3.145133976897341
+[17:52:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Lol
+[17:53:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > :laughing::laughing::laughing:
+[17:53:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Plz shre screen
+[17:53:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Bro
+[17:53:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Once
+[17:53:13] [Server thread/INFO]: SwankDaxter was shot by Skeleton
+[17:53:36] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Ooye
+[17:53:40] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Share karo na
+[17:53:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Plox
+[17:54:34] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Bro you guys exploring
+[17:54:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > ..?
+[17:54:46] [Server thread/WARN]: SwankDaxter moved too quickly! -3.485779999999977,0.12127999999999872,-9.434314999999998
+[17:56:03] [Async Chat Thread - #10/INFO]: [Not Secure] <SuspenseOp> sleep
+[17:56:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Bhai akele akele
+[17:56:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5911ms or 118 ticks behind
+[17:56:49] [Server thread/INFO]: Teleported BIGBEASTISHANK to SwankDaxter
+[17:56:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Suspense bhai aaj raat mee khelega plz
+[17:57:01] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] SwankDaxter has disconnected from the Java server because of Bedrock client disconnected
+[17:57:02] [Async Chat Thread - #10/INFO]: [Not Secure] <BIGBEASTISHANK> KHA HAI BEY ADI?
+[17:57:03] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[17:57:03] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[17:57:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:03] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:57:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:03] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:57:03] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[17:57:03] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open0(Native Method)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open(UnixNativeDispatcher.java:72)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.open(UnixChannelFactory.java:258)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:133)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:146)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:259)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.newOutputStream(Files.java:227)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:140)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.saveddata.SavedData.save(SavedData.java:39)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.DimensionDataStorage.lambda$save$0(DimensionDataStorage.java:124)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.WorldPersistentData$$Lambda/0x00007f2de581f8f0.accept(Unknown Source)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.HashMap.forEach(HashMap.java:1429)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.DimensionDataStorage.save(DimensionDataStorage.java:122)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveLevelData(ServerLevel.java:1554)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1490)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1539)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f2de4b8c240.run(Unknown Source)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[17:57:03] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[17:57:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:03] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:57:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Ya to 9 baje
+[17:57:08] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[17:57:08] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[17:57:08] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:08] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:57:08] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:08] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:57:08] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[17:57:08] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FileDescriptor.close0(Native Method)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FileDescriptor.close(FileDescriptor.java:293)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FileDescriptor$1.close(FileDescriptor.java:88)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl$Closer.run(FileChannelImpl.java:116)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		java.base@21/jdk.internal.ref.CleanerImpl$PhantomCleanableRef.performCleanup(CleanerImpl.java:178)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		java.base@21/jdk.internal.ref.PhantomCleanable.clean(PhantomCleanable.java:133)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.implCloseChannel(FileChannelImpl.java:210)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.channels.spi.AbstractInterruptibleChannel.close(AbstractInterruptibleChannel.java:113)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.createFile(Files.java:657)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.TempFileHelper.create(TempFileHelper.java:136)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.createTempFile(Files.java:878)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:614)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:607)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1504)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1539)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f2de4b8c240.run(Unknown Source)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[17:57:08] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[17:57:08] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:08] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:57:08] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:13] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[17:57:13] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
+[17:57:13] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:13] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:57:13] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:13] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:57:13] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[17:57:13] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FileDescriptor.close0(Native Method)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FileDescriptor.close(FileDescriptor.java:293)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FileDescriptor$1.close(FileDescriptor.java:88)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl$Closer.run(FileChannelImpl.java:116)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		java.base@21/jdk.internal.ref.CleanerImpl$PhantomCleanableRef.performCleanup(CleanerImpl.java:178)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		java.base@21/jdk.internal.ref.PhantomCleanable.clean(PhantomCleanable.java:133)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.implCloseChannel(FileChannelImpl.java:210)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.channels.spi.AbstractInterruptibleChannel.close(AbstractInterruptibleChannel.java:113)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.createFile(Files.java:657)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.TempFileHelper.create(TempFileHelper.java:136)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.createTempFile(Files.java:878)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:614)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:607)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1504)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1539)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f2de4b8c240.run(Unknown Source)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[17:57:13] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[17:57:13] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:13] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:57:13] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:18] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[17:57:18] [Paper Watchdog Thread/ERROR]: The server has not responded for 25 seconds! Creating thread dump
+[17:57:18] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:18] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:57:18] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:18] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:57:18] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[17:57:18] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.DeflaterOutputStream.flush(DeflaterOutputStream.java:290)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:253)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.DataOutputStream.flush(DataOutputStream.java:131)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:184)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:194)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:146)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:616)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:607)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1504)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1539)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f2de4b8c240.run(Unknown Source)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[17:57:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[17:57:18] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:18] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:57:18] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Ok i will dm on insta
+[17:57:23] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[17:57:23] [Paper Watchdog Thread/ERROR]: The server has not responded for 30 seconds! Creating thread dump
+[17:57:23] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:23] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:57:23] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:23] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:57:23] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[17:57:23] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:184)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:249)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:194)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:146)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:616)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:607)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1504)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1539)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f2de4b8c240.run(Unknown Source)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[17:57:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[17:57:23] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:23] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:57:23] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:57:23] [Server thread/WARN]: SuspenseOp moved too quickly! 9.546117713562296,1.4556839994628064,-3.102266322497371
+[17:57:23] [Server thread/WARN]: BIGBEASTISHANK moved too quickly! -27.976058100532214,6.0,-35.13236856140861
+[17:57:23] [Server thread/INFO]: SwankDaxter lost connection: Disconnected
+[17:57:24] [Server thread/INFO]: SwankDaxter left the game
+[17:57:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23219ms or 464 ticks behind
+[17:57:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Bbi tu aayega bkl
+[17:58:05] [Server thread/INFO]: SuspenseOp issued server command: /trigger home
+[17:58:05] [Server thread/INFO]: [SuspenseOp: Triggered [Home]]
+[17:58:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4542ms or 90 ticks behind
+[17:58:10] [Server thread/WARN]: BIGBEASTISHANK moved too quickly! -13.561292689813257,-4.0,-11.403503160815092
+[17:58:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Ooye pranjal 9 baje aajana
+[17:58:17] [Server thread/WARN]: BIGBEASTISHANK moved too quickly! 0.9384140107060261,-0.756759288177264,9.96240810624677
+[17:58:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Why
+[17:58:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > :sob:
+[17:58:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > :wink:
+[17:58:37] [Server thread/INFO]: SuspenseOp issued server command: /trigger back
+[17:58:37] [Server thread/INFO]: [SuspenseOp: Triggered [Back]]
+[17:58:44] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpa add 1
+[17:58:44] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpa] (added 1 to value)]
+[17:58:46] [Server thread/INFO]: SuspenseOp issued server command: /trigger tpaccept
+[17:58:46] [Server thread/INFO]: [SuspenseOp: Triggered [tpaccept]]
+[17:59:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4303ms or 86 ticks behind
+[17:59:04] [Server thread/WARN]: SuspenseOp moved too quickly! -12.194008837864999,-1.1767592750642422,-0.08299385565214834
+[17:59:12] [Server thread/WARN]: SuspenseOp moved too quickly! 9.915930471078468,0.8232407249357578,-1.900544296414978
+[17:59:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Lol
+[18:00:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5309ms or 106 ticks behind
+[18:00:40] [Server thread/WARN]: SuspenseOp moved too quickly! -9.63014263082897,5.823240724935758,1.6902886788385558
+[18:00:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Moderator] Ankita > Bc piyush kaha gya tum
+[18:02:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8789ms or 175 ticks behind
+[18:03:00] [Server thread/INFO]: SuspenseOp issued server command: /trigger tpa add 4
+[18:03:00] [Server thread/INFO]: [SuspenseOp: Triggered [tpa] (added 4 to value)]
+[18:03:07] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[18:03:07] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[18:04:00] [Server thread/INFO]: Made BIGBEASTISHANK a server operator
+[18:04:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7365ms or 147 ticks behind
+[18:04:00] [Server thread/INFO]: BIGBEASTISHANK issued server command: /gamemode creative
+[18:04:00] [Server thread/INFO]: [BIGBEASTISHANK: Set own game mode to Creative Mode]
+[18:04:00] [Server thread/WARN]: BIGBEASTISHANK moved too quickly! 20.14500110179182,0.17675927506424216,4.846168766452365
+[18:04:22] [Server thread/INFO]: BIGBEASTISHANK issued server command: //WAND
+[18:04:25] [Server thread/INFO]: BIGBEASTISHANK issued server command: //wand
+[18:04:34] [Server thread/INFO]: BIGBEASTISHANK issued server command: //distr
+[18:04:44] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[18:04:44] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[18:04:44] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:04:44] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[18:04:44] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:04:44] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[18:04:44] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[18:04:44] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.RandomAccessFile.readBytes0(Native Method)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.RandomAccessFile.readBytes(RandomAccessFile.java:400)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.RandomAccessFile.read(RandomAccessFile.java:434)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.RandomAccessFile.readFully(RandomAccessFile.java:498)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.ZipFile$Source.readFullyAt(ZipFile.java:1494)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.ZipFile$ZipFileInputStream.initDataOffset(ZipFile.java:929)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:945)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:462)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:175)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		com.google.common.io.ByteStreams.toByteArrayInternal(ByteStreams.java:195)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		com.google.common.io.ByteStreams.toByteArray(ByteStreams.java:242)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:215)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.3.0-beta-03-dist.jar//com.sk89q.worldedit.EditSessionBuilder.build(EditSessionBuilder.java:143)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.3.0-beta-03-dist.jar//com.sk89q.worldedit.LocalSession.createEditSession(LocalSession.java:1123)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.3.0-beta-03-dist.jar//com.sk89q.worldedit.command.SelectionCommands.distr(SelectionCommands.java:715)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.3.0-beta-03-dist.jar//com.sk89q.worldedit.command.SelectionCommandsRegistration.cmd$_distr(SelectionCommandsRegistration.java:598)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.3.0-beta-03-dist.jar//com.sk89q.worldedit.command.SelectionCommandsRegistration$$Lambda/0x00007f2de4e308a0.run(Unknown Source)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.3.0-beta-03-dist.jar//org.enginehub.piston.CommandManager.execute(CommandManager.java:157)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.3.0-beta-03-dist.jar//com.sk89q.worldedit.extension.platform.PlatformCommandManager.handleCommand(PlatformCommandManager.java:506)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.invoke.LambdaForm$DMH/0x00007f2de4001000.invokeSpecial(LambdaForm$DMH)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.invoke.LambdaForm$MH/0x00007f2de4dcc000.invoke(LambdaForm$MH)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.invoke.LambdaForm$MH/0x00007f2de4ee5c00.invokeExact_MT(LambdaForm$MH)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.3.0-beta-03-dist.jar//com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.3.0-beta-03-dist.jar//com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.3.0-beta-03-dist.jar//com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.3.0-beta-03-dist.jar//com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.3.0-beta-03-dist.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.onCommand(WorldEditPlugin.java:386)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		worldedit-bukkit-7.3.0-beta-03-dist.jar//com.sk89q.bukkit.util.DynamicPluginCommand.execute(DynamicPluginCommand.java:55)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:987)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:32)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007f2de5766b78.execute(Unknown Source)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.a(CommandQueueEntry.java:5)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:101)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:444)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:345)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:332)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2230)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$16(ServerGamePacketListenerImpl.java:2190)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.PlayerConnection$$Lambda/0x00007f2de5aef740.run(Unknown Source)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.IAsyncTaskHandler$$Lambda/0x00007f2de5aef960.get(Unknown Source)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1458)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1435)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1358)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1336)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1220)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f2de4b8c240.run(Unknown Source)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[18:04:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[18:04:46] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:04:46] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:04:46] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:04:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12344ms or 246 ticks behind
+[18:05:01] [Server thread/INFO]: BIGBEASTISHANK issued server command: /gamemode survival
+[18:05:01] [Server thread/INFO]: [BIGBEASTISHANK: Set own game mode to Survival Mode]
+[18:05:05] [Server thread/INFO]: BIGBEASTISHANK issued server command: /deop
+[18:05:50] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
+[18:05:50] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
+[18:06:08] [Server thread/INFO]: SuspenseOp issued server command: /trigger home
+[18:06:08] [Server thread/INFO]: [SuspenseOp: Triggered [Home]]
+[18:08:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8966ms or 179 ticks behind
+[18:08:07] [Server thread/WARN]: SuspenseOp moved too quickly! 5.389026044140053,1.1767592750642422,-8.461077213374182
+[18:08:43] [Server thread/INFO]: SuspenseOp has made the advancement [Ice Bucket Challenge]
+[18:09:33] [Server thread/INFO]: SuspenseOp fell from a high place
+[18:11:23] [Server thread/INFO]: Villager EntityVillager['Villager'/97, uuid='15335228-d822-4e5b-9b10-59376be5e7ed', l='ServerLevel[world]', x=-324.54, y=87.00, z=85.48, cpos=[-21, 5], tl=620131, v=true] died, message: 'Villager was slain by Zombie'
+[18:12:26] [Server thread/INFO]: SuspenseOp issued server command: /trigger home
+[18:12:26] [Server thread/INFO]: [SuspenseOp: Triggered [Home]]
+[18:17:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7337ms or 146 ticks behind
+[18:17:21] [Server thread/WARN]: BIGBEASTISHANK moved too quickly! 27.94436902453907,0.0,-0.23490007651801648
+[18:17:21] [Server thread/WARN]: SuspenseOp moved too quickly! -1.5631409642738276,-0.08000001311302185,-9.904020916191783
+[18:17:43] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
+[18:17:43] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
+[18:18:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8716ms or 174 ticks behind
+[18:18:23] [Server thread/WARN]: SuspenseOp moved too quickly! -11.408227947550984,-1.766367993957516,12.626499973370002
+[18:20:50] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Level 5 ka noob] daxter6859 (replying to BIGBEASTISHANK) > Aa bhai raat ko aaenge
+[18:20:50] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
+[18:20:50] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
+[18:20:58] [Async Chat Thread - #12/INFO]: [Not Secure] <SuspenseOp> ok
+[18:21:04] [Async Chat Thread - #12/INFO]: [Not Secure] <BIGBEASTISHANK> madharchod serer me onlibne rha kr
+[18:21:13] [Async Chat Thread - #12/INFO]: [Not Secure] <BIGBEASTISHANK> log bolta hai server dead hai
+[18:21:14] [Server thread/INFO]: BIGBEASTISHANK lost connection: Disconnected
+[18:21:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Level 5 ka noob] daxter6859 (replying to BIGBEASTISHANK) > :sweat_smile::sweat_smile:
+[18:21:15] [Server thread/INFO]: BIGBEASTISHANK left the game
+[18:21:17] [Server thread/INFO]: SuspenseOp lost connection: Disconnected
+[18:21:18] [Server thread/INFO]: SuspenseOp left the game
+[18:26:36] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.113.246.149:40839 tried to connect!
+[18:26:37] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.113.246.149:40839 tried to connect!
+[18:26:37] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.113.246.149:40839 tried to connect!
+[18:26:38] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.113.246.149:40839 tried to connect!
+[18:26:38] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.113.246.149:40839 tried to connect!
+[18:26:39] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.113.246.149:40839 tried to connect!
+[18:26:39] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.113.246.149:40839 tried to connect!
+[18:26:40] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.113.246.149:40839 tried to connect!
+[18:26:40] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.113.246.149:40839 tried to connect!
+[18:37:16] [User Authenticator #5/INFO]: UUID of player BIGBEASTISHANK is 53a3fdc7-56b7-3745-9569-a972de0a4fea
+[18:37:17] [Server thread/INFO]: BIGBEASTISHANK joined the game
+[18:37:17] [Server thread/INFO]: BIGBEASTISHANK[/127.206.153.239:44059] logged in with entity id 20689 at ([world]-320.88552423351996, 81.75, 96.58274508413572)
+[18:39:00] [Server thread/INFO]: BIGBEASTISHANK lost connection: Disconnected
+[18:39:01] [Server thread/INFO]: BIGBEASTISHANK left the game
+[18:40:24] [User Authenticator #6/INFO]: UUID of player BIGBEASTISHANK is 53a3fdc7-56b7-3745-9569-a972de0a4fea
+[18:40:24] [Server thread/INFO]: BIGBEASTISHANK joined the game
+[18:40:24] [Server thread/INFO]: BIGBEASTISHANK[/127.206.153.239:37199] logged in with entity id 20942 at ([world]-297.1107835631577, 87.0, 105.08523346289032)
+[18:41:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3940ms or 78 ticks behind
+[18:41:49] [Server thread/WARN]: BIGBEASTISHANK moved too quickly! -9.958563682557553,0.49520087700592796,1.8989746719325638
+[18:42:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Level 5 ka noob] Eliot > yo
+[18:42:16] [Async Chat Thread - #14/INFO]: [Not Secure] <BIGBEASTISHANK> yo
+[18:42:16] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Level 5 ka noob] Eliot > bbi wassup
+[18:42:19] [Async Chat Thread - #14/INFO]: [Not Secure] <BIGBEASTISHANK> welcome
+[18:42:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Level 5 ka noob] Eliot > ingame what u doin
+[18:42:26] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Level 5 ka noob] Eliot > im joining in a bit
+[18:42:44] [Async Chat Thread - #14/INFO]: [Not Secure] <BIGBEASTISHANK> ok
+[18:43:46] [Server thread/INFO]: BIGBEASTISHANK lost connection: Disconnected
+[18:43:46] [Server thread/INFO]: BIGBEASTISHANK left the game
+[18:43:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Level 5 ka noob] Eliot > local.bigbeastishank.com:50403 hai na ip
+[18:43:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Level 5 ka noob] Eliot > for java
+[18:44:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Level 5 ka noob] Eliot > @bigbeastishank
+[18:44:12] [User Authenticator #7/INFO]: UUID of player BIGBEASTISHANK is 53a3fdc7-56b7-3745-9569-a972de0a4fea
+[18:44:13] [Server thread/INFO]: BIGBEASTISHANK joined the game
+[18:44:13] [Server thread/INFO]: BIGBEASTISHANK[/127.206.153.239:46981] logged in with entity id 21382 at ([world]-312.5277304578468, 87.0, 86.8313700086001)
+[18:44:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Level 5 ka noob] Eliot > local.bigbeastishank.com:50403 hai na ip
+[18:44:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Level 5 ka noob] Eliot > for java
+[18:44:53] [Server thread/INFO]: BIGBEASTISHANK lost connection: Disconnected
+[18:44:54] [Server thread/INFO]: BIGBEASTISHANK left the game
+[18:46:46] [User Authenticator #8/INFO]: UUID of player Kreesh__ is 7fba9915-9900-39af-ba3a-1fa158daf050
+[18:46:47] [Server thread/INFO]: Kreesh__ joined the game
+[18:46:47] [Server thread/INFO]: Kreesh__[/127.63.81.160:35129] logged in with entity id 21449 at ([world]-320.5, 104.0, 172.5)
+[18:47:09] [User Authenticator #8/INFO]: UUID of player BIGBEASTISHANK is 53a3fdc7-56b7-3745-9569-a972de0a4fea
+[18:47:09] [Server thread/INFO]: BIGBEASTISHANK joined the game
+[18:47:09] [Server thread/INFO]: BIGBEASTISHANK[/127.206.153.239:42243] logged in with entity id 21543 at ([world]-312.5277304578468, 87.0, 86.8313700086001)
+[18:47:21] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Level 5 ka noob] Eliot > anyone gimme ip bruh
+[18:47:23] [Server thread/INFO]: Kreesh__ has made the advancement [Sweet Dreams]
+[18:47:32] [Async Chat Thread - #16/INFO]: [Not Secure] <BIGBEASTISHANK> announcement me hai
+[18:47:34] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Level 5 ka noob] Eliot > local.bigbeastishank.com:50403 hai na ip
+[18:47:38] [Async Chat Thread - #17/INFO]: [Not Secure] <BIGBEASTISHANK> haan
+[18:47:44] [Server thread/INFO]: Kreesh__ has made the advancement [Monster Hunter]
+[18:50:18] [Server thread/INFO]: Kreesh__ fell from a high place
+[18:52:42] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.63.81.160:47963 tried to connect!
+[18:52:44] [epollEventLoopGroup-3-4/INFO]: [Geyser-Spigot] Player connected with username SwankDaxter
+[18:52:44] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] SwankDaxter (logged in as: SwankDaxter) has connected to the Java server
+[18:52:44] [User Authenticator #9/INFO]: UUID of player SwankDaxter is 43669759-d9e7-3027-a006-495d55bf9e96
+[18:52:44] [Server thread/INFO]: SwankDaxter joined the game
+[18:52:44] [Server thread/INFO]: SwankDaxter[/127.63.81.160:0] logged in with entity id 22611 at ([world]-228.4635, 88.0, 8.764192)
+[18:53:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Level 5 ka noob] Eliot > i cant join wtf server nit showing up
+[18:53:28] [Async Chat Thread - #18/INFO]: [Not Secure] <BIGBEASTISHANK> matlab?? ss do
+[18:53:49] [Async Chat Thread - #19/INFO]: [Not Secure] <BIGBEASTISHANK> -/trigger spawn
+[18:54:23] [Server thread/INFO]: SwankDaxter issued server command: /triggerspawm
+[18:55:07] [Server thread/INFO]: SwankDaxter issued server command: /trigger spawn
+[18:55:07] [Server thread/INFO]: [SwankDaxter: Triggered [Spawn]]
+[18:56:24] [Server thread/INFO]: Kreesh__ fell from a high place
+[18:56:55] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] SwankDaxter has disconnected from the Java server because of Bedrock client disconnected
+[18:56:55] [Server thread/INFO]: SwankDaxter lost connection: Disconnected
+[18:56:56] [Server thread/INFO]: SwankDaxter left the game
+[18:58:14] [Server thread/INFO]: Kreesh__ fell from a high place
+[18:59:52] [Server thread/INFO]: Kreesh__ froze to death
+[19:00:43] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpa add 8
+[19:00:43] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpa] (added 8 to value)]
+[19:01:14] [Server thread/INFO]: Kreesh__ issued server command: /trigger tpaccept
+[19:01:14] [Server thread/INFO]: [Kreesh__: Triggered [tpaccept]]
+[19:03:27] [Server thread/INFO]: BIGBEASTISHANK was slain by Kreesh__
+[19:06:10] [User Authenticator #10/INFO]: UUID of player anelephant_69 is 3c4b0dd3-f3ea-376f-b081-4a4c5aab8af7
+[19:06:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6812ms or 136 ticks behind
+[19:06:14] [Server thread/WARN]: Kreesh__ moved too quickly! 13.755975274195677,2.176759275064242,6.182777170620909
+[19:06:14] [Server thread/WARN]: BIGBEASTISHANK moved too quickly! -3.290803598394689,-4.535840625044557,13.241388907666277
+[19:06:15] [Server thread/INFO]: anelephant_69 joined the game
+[19:06:15] [Server thread/INFO]: anelephant_69[/[0:0:0:0:0:0:0:1%0]:41330] logged in with entity id 26136 at ([world]-328.5, 116.0, 157.5)
+[19:06:28] [Async Chat Thread - #20/INFO]: [Not Secure] <anelephant_69> wtf is this skin
+[19:06:41] [Async Chat Thread - #21/INFO]: [Not Secure] <anelephant_69> tp link
+[19:06:48] [Async Chat Thread - #20/INFO]: [Not Secure] <anelephant_69> yea
+[19:07:00] [Server thread/INFO]: Kreesh__ has made the advancement [Stone Age]
+[19:07:23] [Server thread/INFO]: Kreesh__ lost connection: Disconnected
+[19:07:23] [Server thread/INFO]: Kreesh__ left the game
+[19:08:20] [Async Chat Thread - #22/INFO]: [Not Secure] <anelephant_69> i have cludfare dns
+[19:08:26] [Async Chat Thread - #23/INFO]: [Not Secure] <anelephant_69> 8888 8448
+[19:08:32] [Async Chat Thread - #22/INFO]: [Not Secure] <anelephant_69> oh
+[19:08:33] [Async Chat Thread - #23/INFO]: [Not Secure] <anelephant_69> yea
+[19:08:35] [Async Chat Thread - #22/INFO]: [Not Secure] <anelephant_69> ggl
+[19:09:34] [Async Chat Thread - #22/INFO]: [Not Secure] <anelephant_69> k
+[19:09:56] [Async Chat Thread - #23/INFO]: [Not Secure] <anelephant_69> naam rakho kreesh
+[19:10:11] [Async Chat Thread - #23/INFO]: [Not Secure] <anelephant_69> damn
+[19:10:21] [Async Chat Thread - #22/INFO]: [Not Secure] <anelephant_69> ye smp ka kya rules hai
+[19:11:52] [Server thread/INFO]: anelephant_69 has made the advancement [Stone Age]
+[19:12:05] [Async Chat Thread - #24/INFO]: [Not Secure] <anelephant_69> na
+[19:12:19] [Async Chat Thread - #24/INFO]: [Not Secure] <anelephant_69> saddle le lu?
+[19:12:36] [Async Chat Thread - #24/INFO]: [Not Secure] <anelephant_69> k
+[19:12:43] [Async Chat Thread - #25/INFO]: [Not Secure] <anelephant_69> head kaise milta
+[19:12:56] [Server thread/INFO]: anelephant_69 was slain by BIGBEASTISHANK
+[19:14:09] [Server thread/INFO]: anelephant_69 issued server command: /trigger sethome
+[19:14:09] [Server thread/INFO]: [anelephant_69: Triggered [Set Home]]
+[19:15:17] [Async Chat Thread - #26/INFO]: [Not Secure] <anelephant_69> abhi bhi hai
+[19:15:19] [Async Chat Thread - #27/INFO]: [Not Secure] <anelephant_69> lol
+[19:18:35] [Async Chat Thread - #28/INFO]: [Not Secure] <anelephant_69> lol
+[19:19:36] [Server thread/INFO]: anelephant_69 has made the advancement [Voluntary Exile]
+[19:19:36] [Server thread/INFO]: anelephant_69 has made the advancement [Monster Hunter]
+[19:19:45] [Server thread/INFO]: anelephant_69 was shot by Pillager
+[19:19:48] [Server thread/INFO]: anelephant_69 issued server command: /home
+[19:19:51] [Server thread/INFO]: anelephant_69 issued server command: /trigger home
+[19:19:51] [Server thread/INFO]: [anelephant_69: Triggered [Home]]
+[19:20:57] [Server thread/INFO]: anelephant_69 has made the advancement [Getting an Upgrade]
+[19:23:52] [Async Chat Thread - #30/INFO]: [Not Secure] <BIGBEASTISHANK> eliot sir k anaam bta english wale
+[19:24:50] [Async Chat Thread - #31/INFO]: [Not Secure] <BIGBEASTISHANK> re vc aa
+[19:24:52] [Async Chat Thread - #30/INFO]: [Not Secure] <BIGBEASTISHANK> kaam hai
+[19:24:56] [Async Chat Thread - #31/INFO]: [Not Secure] <BIGBEASTISHANK> hello
+[19:25:03] [Async Chat Thread - #30/INFO]: [Not Secure] <BIGBEASTISHANK> call aa na
+[19:25:19] [Async Chat Thread - #30/INFO]: [Not Secure] <anelephant_69> anshu
+[19:25:22] [Async Chat Thread - #31/INFO]: [Not Secure] <anelephant_69> awasthi
+[19:26:53] [Async Chat Thread - #32/INFO]: [Not Secure] <anelephant_69> niche
+[19:27:09] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpa add 9
+[19:27:09] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpa] (added 9 to value)]
+[19:27:12] [Server thread/INFO]: anelephant_69 issued server command: /trigger tpaccept
+[19:27:12] [Server thread/INFO]: [anelephant_69: Triggered [tpaccept]]
+[19:28:08] [Async Chat Thread - #34/INFO]: [Not Secure] <anelephant_69> 10 hai
+[19:28:10] [Async Chat Thread - #35/INFO]: [Not Secure] <anelephant_69> vai*
+[19:28:21] [Async Chat Thread - #35/INFO]: [Not Secure] <anelephant_69> basil 10th me hai lol
+[19:28:57] [Async Chat Thread - #35/INFO]: [Not Secure] <anelephant_69> ground
+[19:29:08] [Server thread/INFO]: anelephant_69 issued server command: /trigger kill
+[19:30:44] [Async Chat Thread - #36/INFO]: [Not Secure] <anelephant_69> ek section hai shayad
+[19:30:50] [Server thread/INFO]: anelephant_69 has made the advancement [Acquire Hardware]
+[19:31:08] [Async Chat Thread - #37/INFO]: [Not Secure] <anelephant_69> ek hi section me bio aur maths wala hai
+[19:31:10] [Async Chat Thread - #37/INFO]: [Not Secure] <anelephant_69> 11 me
+[19:31:12] [Async Chat Thread - #37/INFO]: [Not Secure] <anelephant_69> delta
+[19:31:41] [Server thread/INFO]: anelephant_69 has made the advancement [Isn't It Iron Pick]
+[19:32:46] [Async Chat Thread - #38/INFO]: [Not Secure] <anelephant_69> 2 gb ram fuck no
+[19:32:52] [Async Chat Thread - #39/INFO]: [Not Secure] <anelephant_69> still
+[19:33:15] [Async Chat Thread - #38/INFO]: [Not Secure] <anelephant_69> ofc
+[19:34:28] [Server thread/INFO]: anelephant_69 has made the advancement [Suit Up]
+[19:34:28] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
+[19:34:28] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
+[19:35:04] [Async Chat Thread - #40/INFO]: [Not Secure] <anelephant_69> tf is xray
+[19:35:09] [Server thread/INFO]: Nothing changed. The player already is an operator
+[19:35:21] [Server thread/INFO]: BIGBEASTISHANK issued server command: /gamemode spectator
+[19:35:21] [Server thread/INFO]: [BIGBEASTISHANK: Set own game mode to Spectator Mode]
+[19:36:06] [Async Chat Thread - #42/INFO]: [Not Secure] <anelephant_69> vai maine ek torch nahi banaya hai
+[19:36:09] [Async Chat Thread - #43/INFO]: [Not Secure] <anelephant_69> pehel se tha
+[19:36:22] [Async Chat Thread - #42/INFO]: [Not Secure] <anelephant_69> bro
+[19:36:24] [Async Chat Thread - #43/INFO]: [Not Secure] <anelephant_69> wtf is xray
+[19:36:34] [Async Chat Thread - #43/INFO]: [Not Secure] <anelephant_69> :skul:
+[19:37:30] [Server thread/INFO]: anelephant_69 issued server command: /suicide
+[19:37:40] [Server thread/INFO]: anelephant_69 issued server command: /trigger suicide
+[19:37:44] [Server thread/INFO]: anelephant_69 issued server command: /trigger kill
+[19:37:45] [Server thread/INFO]: anelephant_69 issued server command: /kill
+[19:38:26] [Server thread/INFO]: BIGBEASTISHANK issued server command: /effect give BIGBEASTISHANK minecraft:night_vision infinite
+[19:38:26] [Server thread/INFO]: [BIGBEASTISHANK: Applied effect Night Vision to BIGBEASTISHANK]
+[19:38:59] [Server thread/INFO]: BIGBEASTISHANK issued server command: /tp
+[19:39:02] [Server thread/INFO]: BIGBEASTISHANK issued server command: /tps
+[19:39:24] [Server thread/INFO]: BIGBEASTISHANK issued server command: /tp anelephant_69
+[19:39:24] [Server thread/INFO]: [BIGBEASTISHANK: Teleported BIGBEASTISHANK to anelephant_69]
+[19:40:39] [Async Chat Thread - #44/INFO]: [Not Secure] <anelephant_69> no
+[19:40:54] [Server thread/INFO]: BIGBEASTISHANK issued server command: /gamemode survival
+[19:40:54] [Server thread/INFO]: [BIGBEASTISHANK: Set own game mode to Survival Mode]
+[19:40:55] [Server thread/INFO]: anelephant_69 fell from a high place
+[19:41:02] [Server thread/INFO]: BIGBEASTISHANK issued server command: /effect clear @a
+[19:41:02] [Server thread/INFO]: [BIGBEASTISHANK: Removed every effect from 2 targets]
+[19:41:04] [Async Chat Thread - #45/INFO]: [Not Secure] <anelephant_69> piyush smart af
+[19:41:08] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
+[19:41:08] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
+[19:41:19] [Async Chat Thread - #45/INFO]: [Not Secure] <anelephant_69> oh i forgot-
+[19:41:37] [Async Chat Thread - #44/INFO]: [Not Secure] <anelephant_69> lol
+[19:41:55] [Async Chat Thread - #44/INFO]: [Not Secure] <anelephant_69> sabka bed yehi? hai
+[19:42:06] [Server thread/INFO]: BIGBEASTISHANK lost connection: Disconnected
+[19:42:06] [Server thread/INFO]: BIGBEASTISHANK left the game
+[19:43:32] [Server thread/INFO]: anelephant_69 has made the advancement [A Seedy Place]
+[19:43:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9069ms or 181 ticks behind
+[19:43:43] [Server thread/WARN]: anelephant_69 moved too quickly! 12.258648783739318,-6.0,21.66718262860512
+[19:43:45] [Server thread/INFO]: anelephant_69 lost connection: Disconnected
+[19:43:45] [Server thread/INFO]: anelephant_69 left the game
+[19:43:50] [User Authenticator #11/INFO]: UUID of player anelephant_69 is 3c4b0dd3-f3ea-376f-b081-4a4c5aab8af7
+[19:43:51] [Server thread/INFO]: anelephant_69 joined the game
+[19:43:51] [Server thread/INFO]: anelephant_69[/[0:0:0:0:0:0:0:1%0]:56888] logged in with entity id 31560 at ([world]-311.57889531786174, 81.0, 103.66590975955162)
+[19:44:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5672ms or 113 ticks behind
+[19:45:27] [Server thread/INFO]: anelephant_69 fell from a high place
+[19:45:41] [Server thread/INFO]: anelephant_69 fell from a high place
+[19:45:52] [Server thread/INFO]: anelephant_69 fell from a high place
+[19:45:57] [Server thread/INFO]: anelephant_69 fell from a high place
+[19:46:35] [Server thread/INFO]: anelephant_69 was doomed to fall by Enderman
+[19:46:40] [Server thread/INFO]: anelephant_69 issued server command: /trigger home
+[19:46:40] [Server thread/INFO]: [anelephant_69: Triggered [Home]]
+[19:47:16] [Server thread/INFO]: anelephant_69 lost connection: Disconnected
+[19:47:16] [Server thread/INFO]: anelephant_69 left the game
+[19:52:50] [Server thread/INFO]: Stopping the server
+[19:52:50] [Server thread/INFO]: Stopping server
+[19:52:50] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.0-SNAPSHOT
+[19:52:50] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[19:52:50] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[19:52:50] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.2
+[19:53:05] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Saved linked accounts in 14718ms
+[19:53:05] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0-beta-03+d6d222e
+[19:53:05] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:53:05] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[19:53:20] [Server thread/INFO]: Saving players
+[19:53:20] [Server thread/INFO]: Saving worlds
+[19:53:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:53:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:53:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:53:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:53:21] [Server thread/INFO]: [ChunkHolderManager] Saved 151 block chunks, 320 entity chunks, 0 poi chunks in world 'world' in 0.50s
+[19:54:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:54:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:54:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:54:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:54:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:54:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 22 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
+[19:54:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:54:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:54:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:54:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:54:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:54:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[19:54:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:54:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:54:21] [Server thread/INFO]: Flushing Chunk IO
+[19:54:21] [Server thread/INFO]: Closing Thread Pool
+[19:54:21] [Server thread/INFO]: Closing Server
