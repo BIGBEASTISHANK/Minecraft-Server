@@ -5,4 +5,4 @@
 - It's a java and bedrock crossplay server.
 
 ## To join BBI's server
-- [Official Discord server](https://bigbeastishank.com/discord)
+- [Join Discord server](https://bigbeastishank.com/discord)
