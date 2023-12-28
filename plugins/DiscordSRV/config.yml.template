@@ -30,7 +30,7 @@ BotToken: "BOTTOKEN"
 Channels: {"global": "1188087968968216607"}
 
 # Console channel numerical ID (NOT NAME), leave blank to disable the console channel all together
-DiscordConsoleChannelId: "1188428807741378621"
+DiscordConsoleChannelId: ""
 
 # Invitation link shown to players when using /discord and on the message shown to unlinked players when linking is enforced
 DiscordInviteLink: "https://bigbeastishank.com/discord"
