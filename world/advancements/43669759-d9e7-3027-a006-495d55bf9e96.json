@@ -9,16 +9,25 @@
     "criteria": {
       "minecraft:flower_forest": "2023-12-24 17:31:17 +0530",
       "minecraft:savanna_plateau": "2023-12-28 20:31:25 +0530",
+      "minecraft:beach": "2023-12-29 23:13:04 +0530",
+      "minecraft:dark_forest": "2023-12-29 23:07:27 +0530",
       "minecraft:forest": "2023-12-23 20:12:51 +0530",
+      "minecraft:sparse_jungle": "2023-12-29 20:47:44 +0530",
       "minecraft:river": "2023-12-24 17:29:17 +0530",
+      "minecraft:lukewarm_ocean": "2023-12-30 21:47:17 +0530",
+      "minecraft:stony_shore": "2023-12-29 20:48:00 +0530",
+      "minecraft:lush_caves": "2023-12-29 23:19:08 +0530",
       "minecraft:dripstone_caves": "2023-12-23 20:26:23 +0530",
       "minecraft:old_growth_birch_forest": "2023-12-28 20:00:29 +0530",
       "minecraft:deep_dark": "2023-12-28 19:43:12 +0530",
+      "minecraft:jungle": "2023-12-29 20:46:45 +0530",
+      "minecraft:ocean": "2023-12-29 23:05:28 +0530",
       "minecraft:cherry_grove": "2023-12-23 20:04:11 +0530",
       "minecraft:sunflower_plains": "2023-12-24 17:30:34 +0530",
       "minecraft:meadow": "2023-12-26 17:46:28 +0530",
       "minecraft:birch_forest": "2023-12-28 19:53:13 +0530",
       "minecraft:savanna": "2023-12-26 17:41:29 +0530",
+      "minecraft:bamboo_jungle": "2023-12-29 23:08:03 +0530",
       "minecraft:plains": "2023-12-23 20:03:47 +0530"
     },
     "done": false
@@ -314,14 +323,18 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2023-12-26 17:42:00 +0530",
-      "apple": "2023-12-23 20:10:59 +0530",
       "chicken": "2023-12-26 17:37:24 +0530",
       "bread": "2023-12-23 20:15:14 +0530",
-      "cooked_chicken": "2023-12-23 20:24:31 +0530",
       "rotten_flesh": "2023-12-26 17:36:16 +0530",
       "cooked_mutton": "2023-12-24 17:12:52 +0530",
-      "potato": "2023-12-23 20:24:07 +0530",
-      "salmon": "2023-12-28 22:03:26 +0530"
+      "glow_berries": "2023-12-29 23:31:57 +0530",
+      "salmon": "2023-12-28 22:03:26 +0530",
+      "cooked_beef": "2023-12-29 22:50:19 +0530",
+      "melon_slice": "2023-12-29 23:16:54 +0530",
+      "apple": "2023-12-23 20:10:59 +0530",
+      "spider_eye": "2023-12-29 20:43:06 +0530",
+      "cooked_chicken": "2023-12-23 20:24:31 +0530",
+      "potato": "2023-12-23 20:24:07 +0530"
     },
     "done": false
   },
@@ -402,7 +415,8 @@
       "minecraft:skeleton": "2023-12-23 20:13:37 +0530",
       "minecraft:silverfish": "2023-12-28 20:54:43 +0530",
       "minecraft:spider": "2023-12-28 21:01:22 +0530",
-      "minecraft:zombie": "2023-12-24 17:26:17 +0530"
+      "minecraft:zombie": "2023-12-24 17:26:17 +0530",
+      "minecraft:zombie_villager": "2023-12-29 23:32:51 +0530"
     },
     "done": false
   },
@@ -7138,12 +7152,6 @@
     },
     "done": true
   },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:warped_forest": "2023-12-28 22:12:01 +0530"
-    },
-    "done": false
-  },
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2023-12-28 22:12:00 +0530"
@@ -7153,6 +7161,20 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2023-12-28 22:12:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2023-12-30 22:14:06 +0530",
+      "minecraft:nether_wastes": "2023-12-30 22:08:06 +0530",
+      "minecraft:warped_forest": "2023-12-28 22:12:01 +0530"
+    },
+    "done": false
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2023-12-30 22:05:26 +0530"
     },
     "done": true
   },

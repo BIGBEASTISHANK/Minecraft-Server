@@ -8,16 +8,22 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:flower_forest": "2023-12-23 16:59:28 +0530",
-      "minecraft:old_growth_birch_forest": "2023-12-28 19:57:14 +0530",
+      "minecraft:beach": "2023-12-30 21:47:02 +0530",
+      "minecraft:dark_forest": "2023-12-30 21:36:49 +0530",
       "minecraft:forest": "2023-12-23 18:05:14 +0530",
+      "minecraft:sparse_jungle": "2023-12-29 20:51:04 +0530",
+      "minecraft:river": "2023-12-23 17:12:11 +0530",
+      "minecraft:lush_caves": "2023-12-30 21:56:47 +0530",
+      "minecraft:dripstone_caves": "2023-12-28 19:27:22 +0530",
+      "minecraft:old_growth_birch_forest": "2023-12-28 19:57:14 +0530",
       "minecraft:deep_dark": "2023-12-28 19:42:57 +0530",
+      "minecraft:jungle": "2023-12-30 22:01:25 +0530",
       "minecraft:sunflower_plains": "2023-12-23 17:12:16 +0530",
       "minecraft:cherry_grove": "2023-12-23 18:02:14 +0530",
-      "minecraft:river": "2023-12-23 17:12:11 +0530",
       "minecraft:meadow": "2023-12-23 17:08:19 +0530",
       "minecraft:birch_forest": "2023-12-28 19:32:40 +0530",
-      "minecraft:dripstone_caves": "2023-12-28 19:27:22 +0530",
       "minecraft:savanna": "2023-12-28 20:29:11 +0530",
+      "minecraft:bamboo_jungle": "2023-12-30 21:43:49 +0530",
       "minecraft:plains": "2023-12-23 17:05:47 +0530"
     },
     "done": false
@@ -107,7 +113,9 @@
       "chicken": "2023-12-23 17:05:24 +0530",
       "spider_eye": "2023-12-25 22:20:24 +0530",
       "bread": "2023-12-23 18:12:50 +0530",
-      "rotten_flesh": "2023-12-28 16:53:44 +0530"
+      "rotten_flesh": "2023-12-28 16:53:44 +0530",
+      "cooked_mutton": "2023-12-29 20:28:53 +0530",
+      "cooked_beef": "2023-12-30 21:46:52 +0530"
     },
     "done": false
   },
@@ -7145,12 +7153,6 @@
     },
     "done": true
   },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:warped_forest": "2023-12-28 22:32:31 +0530"
-    },
-    "done": false
-  },
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2023-12-28 22:32:30 +0530"
@@ -7160,6 +7162,30 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2023-12-28 22:32:30 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:warped_forest": "2023-12-28 22:32:31 +0530"
+    },
+    "done": false
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2023-12-29 20:19:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2023-12-29 20:55:39 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2023-12-30 22:01:00 +0530"
     },
     "done": true
   },
