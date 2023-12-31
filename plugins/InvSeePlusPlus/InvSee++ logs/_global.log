@@ -106,3 +106,21 @@ Spectator Name: BIGBEASTISHANK
 Taken         : [DIAMOND_HELMET & ARMOR_META:{meta-type=ARMOR, enchants={PROTECTION_ENVIRONMENTAL=4, DURABILITY=3}, repair-cost=1, Damage=40} x 1]
 Given         : []
 Target        : SuspenseOp
+[2023-12-31 21:08:49] [INFO]:
+Spectator UUID: 53a3fdc7-56b7-3745-9569-a972de0a4fea
+Spectator Name: BIGBEASTISHANK
+Taken         : [BOW & UNSPECIFIC_META:{meta-type=UNSPECIFIC, enchants={ARROW_FIRE=1, ARROW_INFINITE=1, ARROW_DAMAGE=5, ARROW_KNOCKBACK=2, DURABILITY=3}, repair-cost=7, Damage=14} x 1]
+Given         : [COMMAND_BLOCK x 1]
+Target        : SuspenseOp
+[2023-12-31 21:09:25] [INFO]:
+Spectator UUID: 53a3fdc7-56b7-3745-9569-a972de0a4fea
+Spectator Name: BIGBEASTISHANK
+Taken         : []
+Given         : [BOW & UNSPECIFIC_META:{meta-type=UNSPECIFIC, enchants={ARROW_FIRE=1, ARROW_INFINITE=1, ARROW_DAMAGE=5, ARROW_KNOCKBACK=2, DURABILITY=3}, repair-cost=7, Damage=17} x 1]
+Target        : SuspenseOp
+[2023-12-31 21:09:25] [INFO]:
+Spectator UUID: 53a3fdc7-56b7-3745-9569-a972de0a4fea
+Spectator Name: BIGBEASTISHANK
+Taken         : []
+Given         : [BOW & UNSPECIFIC_META:{meta-type=UNSPECIFIC, enchants={ARROW_FIRE=1, ARROW_INFINITE=1, ARROW_DAMAGE=5, ARROW_KNOCKBACK=2, DURABILITY=3}, repair-cost=7, Damage=17} x 1]
+Target        : SuspenseOp

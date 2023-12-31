@@ -1,50 +1,1495 @@
-[00:11:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8480ms or 169 ticks behind
-[00:16:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8456ms or 169 ticks behind
-[00:26:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8266ms or 165 ticks behind
-[00:31:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8170ms or 163 ticks behind
-[00:36:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8299ms or 165 ticks behind
-[00:46:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7966ms or 159 ticks behind
-[00:52:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8149ms or 162 ticks behind
-[01:07:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8306ms or 166 ticks behind
-[01:12:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8216ms or 164 ticks behind
-[01:17:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8346ms or 166 ticks behind
-[01:32:29] [Server thread/INFO]: Stopping the server
-[01:32:29] [Server thread/INFO]: Stopping server
-[01:32:29] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.2
-[01:32:43] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Saved linked accounts in 14363ms
-[01:32:44] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.0-SNAPSHOT
-[01:32:44] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[01:32:44] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[01:32:44] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0-beta-03+d6d222e
-[01:32:44] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[01:32:44] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v2.1.1
-[01:32:44] [Server thread/INFO]: [VeinMiner] Clearing localized data
-[01:32:44] [Server thread/INFO]: [InvSee++_Clear] Disabling InvSeePlusPlus_Clear v0.24.9
-[01:32:44] [Server thread/INFO]: [InvSee++_Give] Disabling InvSeePlusPlus_Give v0.24.9
-[01:32:44] [Server thread/INFO]: [SuperVanish] Disabling SuperVanish v6.2.18
-[01:32:44] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
-[01:32:44] [Server thread/INFO]: [InvSee++] Disabling InvSeePlusPlus v0.24.9
-[01:32:44] [Server thread/INFO]: Saving players
-[01:32:44] [Server thread/INFO]: Saving worlds
-[01:32:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:32:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[01:32:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[01:32:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[01:32:45] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 224 entity chunks, 0 poi chunks in world 'world' in 0.08s
-[01:33:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:33:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:33:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[01:33:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[01:33:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[01:33:03] [Server thread/INFO]: [ChunkHolderManager] Saved 518 block chunks, 161 entity chunks, 0 poi chunks in world 'world_nether' in 0.30s
-[01:33:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:33:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:33:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[01:33:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[01:33:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[01:33:35] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[01:33:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:33:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:33:36] [Server thread/INFO]: Flushing Chunk IO
-[01:33:36] [Server thread/INFO]: Closing Thread Pool
-[01:33:36] [Server thread/INFO]: Closing Server
+[00:00:08] [Async Chat Thread - #47/INFO]: [Not Secure] <ajha1304> kispe hai
+[00:00:23] [Server thread/INFO]: ajha1304 was burned to a crisp while fighting SwankDaxter
+[00:00:48] [Async Chat Thread - #47/INFO]: [Not Secure] <ajha1304> happy new year guys
+[00:01:14] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[00:01:14] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[00:01:14] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:01:14] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:01:14] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:01:14] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:01:14] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[00:01:14] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.DeflaterOutputStream.flush(DeflaterOutputStream.java:290)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:253)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.DataOutputStream.flush(DataOutputStream.java:131)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:184)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:194)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:146)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:44)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$saveAll$2(PlayerList.java:1239)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda/0x00007f8b418a3a48.get(Unknown Source)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:380)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1232)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1535)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[00:01:14] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[00:01:14] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:01:14] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:01:14] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:01:19] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[00:01:19] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[00:01:19] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:01:19] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:01:19] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:01:19] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:01:19] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[00:01:19] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FileDescriptor.close0(Native Method)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FileDescriptor.close(FileDescriptor.java:293)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FileDescriptor$1.close(FileDescriptor.java:88)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl$Closer.run(FileChannelImpl.java:116)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		java.base@21/jdk.internal.ref.CleanerImpl$PhantomCleanableRef.performCleanup(CleanerImpl.java:178)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		java.base@21/jdk.internal.ref.PhantomCleanable.clean(PhantomCleanable.java:133)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.implCloseChannel(FileChannelImpl.java:210)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.channels.spi.AbstractInterruptibleChannel.close(AbstractInterruptibleChannel.java:113)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.close(ChannelOutputStream.java:111)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:439)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.cs.StreamEncoder.lockedClose(StreamEncoder.java:237)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.cs.StreamEncoder.close(StreamEncoder.java:222)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.OutputStreamWriter.close(OutputStreamWriter.java:266)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedWriter.implClose(BufferedWriter.java:398)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedWriter.close(BufferedWriter.java:380)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.PlayerAdvancements.save(PlayerAdvancements.java:188)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:591)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$saveAll$2(PlayerList.java:1239)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda/0x00007f8b418a3a48.get(Unknown Source)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:380)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1232)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1535)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[00:01:19] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[00:01:19] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:01:19] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:01:19] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:01:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14999ms or 299 ticks behind
+[00:01:19] [Server thread/INFO]: ajha1304 was slain by BIGBEASTISHANK
+[00:01:41] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] SwankDaxter has disconnected from the Java server because of Bedrock client timed out
+[00:01:42] [Server thread/INFO]: SwankDaxter lost connection: Disconnected
+[00:01:42] [Server thread/INFO]: SwankDaxter left the game
+[00:02:00] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.141.25.107:41024 tried to connect!
+[00:02:02] [epollEventLoopGroup-3-3/INFO]: [Geyser-Spigot] Player connected with username SwankDaxter
+[00:02:02] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] SwankDaxter (logged in as: SwankDaxter) has connected to the Java server
+[00:02:02] [User Authenticator #23/INFO]: UUID of player SwankDaxter is 43669759-d9e7-3027-a006-495d55bf9e96
+[00:02:02] [Server thread/INFO]: SwankDaxter joined the game
+[00:02:02] [Server thread/INFO]: SwankDaxter[/127.141.25.107:0] logged in with entity id 32287 at ([world]-312.67377, 81.0, 89.90993)
+[00:02:07] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:02:12] [Async Chat Thread - #48/INFO]: [Not Secure] <ajha1304> mat karo
+[00:02:16] [Async Chat Thread - #49/INFO]: [Not Secure] <ajha1304> plz bbi
+[00:02:41] [Server thread/INFO]: BIGBEASTISHANK was slain by SwankDaxter
+[00:02:44] [Async Chat Thread - #48/INFO]: [Not Secure] <ajha1304> thirns hai
+[00:03:14] [Server thread/INFO]: ajha1304 was slain by BIGBEASTISHANK
+[00:03:43] [Async Chat Thread - #48/INFO]: [Not Secure] <ajha1304>  ek sec aa rhe
+[00:04:09] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] ajha1304 has disconnected from the Java server because of Bedrock client timed out
+[00:04:09] [Server thread/INFO]: ajha1304 lost connection: Disconnected
+[00:04:10] [Server thread/INFO]: ajha1304 left the game
+[00:04:27] [Server thread/INFO]: SwankDaxter tried to swim in lava
+[00:04:28] [Server thread/INFO]: BIGBEASTISHANK issued server command: /locate structure minecraft:ruined_portal_nether
+[00:04:29] [Server thread/INFO]: Locating element minecraft:ruined_portal_nether took 20 ms
+[00:04:42] [Server thread/INFO]: BIGBEASTISHANK issued server command: /locate biome minecraft:nether_wastes
+[00:04:42] [Server thread/INFO]: Locating element minecraft:nether_wastes took 1 ms
+[00:04:54] [Server thread/INFO]: BIGBEASTISHANK issued server command: /locate poi minecraft:nether_portal
+[00:04:54] [Server thread/INFO]: Locating element minecraft:nether_portal took 0 ms
+[00:05:04] [Server thread/INFO]: BIGBEASTISHANK issued server command: /locate structure minecraft:fortress
+[00:05:04] [Server thread/INFO]: Locating element minecraft:fortress took 4 ms
+[00:05:16] [Async Chat Thread - #50/INFO]: [Not Secure] <BIGBEASTISHANK> -528 -224
+[00:05:23] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
+[00:05:23] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
+[00:05:34] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.113.185.135:40733 tried to connect!
+[00:05:36] [epollEventLoopGroup-3-4/INFO]: [Geyser-Spigot] Player connected with username ajha1304
+[00:05:36] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] ajha1304 (logged in as: ajha1304) has connected to the Java server
+[00:05:36] [User Authenticator #24/INFO]: UUID of player ajha1304 is 926d1512-3375-3515-94d2-891e64131925
+[00:05:37] [Server thread/INFO]: ajha1304 joined the game
+[00:05:37] [Server thread/INFO]: ajha1304[/127.113.185.135:0] logged in with entity id 32874 at ([world]-314.5, 81.0, 89.5)
+[00:06:23] [Async Chat Thread - #52/INFO]: [Not Secure] <ajha1304> nhi prank tha
+[00:06:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9656ms or 193 ticks behind
+[00:06:28] [Server thread/INFO]: BIGBEASTISHANK issued server command: /TRIG
+[00:06:28] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
+[00:06:28] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
+[00:06:30] [Async Chat Thread - #53/INFO]: [Not Secure] <ajha1304> happy new year ka
+[00:07:28] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] ajha1304 has disconnected from the Java server because of Bedrock client timed out
+[00:07:28] [Server thread/INFO]: ajha1304 lost connection: Disconnected
+[00:07:29] [Server thread/INFO]: ajha1304 left the game
+[00:07:44] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
+[00:07:44] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
+[00:08:40] [Server thread/INFO]: SwankDaxter was burned to a crisp while fighting Ghast
+[00:08:42] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger homes
+[00:08:42] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Homes]]
+[00:08:45] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
+[00:08:45] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
+[00:09:03] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger delhome
+[00:09:03] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Delete Home]]
+[00:09:05] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger delhome
+[00:09:05] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Delete Home]]
+[00:09:22] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger sethome
+[00:09:22] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Set Home]]
+[00:09:33] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger namehome set 1
+[00:09:33] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Name Home] (set value to 1)]
+[00:09:56] [Server thread/INFO]: SwankDaxter has made the advancement [Take Aim]
+[00:10:02] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.113.185.135:52155 tried to connect!
+[00:10:04] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Player connected with username ajha1304
+[00:10:04] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] ajha1304 (logged in as: ajha1304) has connected to the Java server
+[00:10:04] [User Authenticator #25/INFO]: UUID of player ajha1304 is 926d1512-3375-3515-94d2-891e64131925
+[00:10:04] [Server thread/INFO]: ajha1304 joined the game
+[00:10:04] [Server thread/INFO]: ajha1304[/127.113.185.135:0] logged in with entity id 33746 at ([world_nether]-18.782084, 74.0, -24.30001)
+[00:10:31] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] ajha1304 has disconnected from the Java server because of Bedrock client timed out
+[00:10:31] [Server thread/INFO]: ajha1304 lost connection: Disconnected
+[00:10:31] [Server thread/INFO]: ajha1304 left the game
+[00:10:32] [Server thread/INFO]: BIGBEASTISHANK lost connection: Disconnected
+[00:10:32] [Server thread/INFO]: BIGBEASTISHANK left the game
+[00:12:03] [User Authenticator #26/INFO]: UUID of player BIGBEASTISHANK is 53a3fdc7-56b7-3745-9569-a972de0a4fea
+[00:12:04] [Server thread/INFO]: BIGBEASTISHANK joined the game
+[00:12:04] [Server thread/INFO]: BIGBEASTISHANK[/127.138.199.169:35253] logged in with entity id 33938 at ([world_nether]-77.9167795698335, 23.31595767249427, -6.333502705718119)
+[00:12:10] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
+[00:12:10] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
+[00:12:54] [Server thread/INFO]: SwankDaxter was doomed to fall
+[00:15:17] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:15:33] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:15:33] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:15:37] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:15:37] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:15:43] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger sethome
+[00:15:43] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Set Home]]
+[00:16:19] [Server thread/INFO]: SwankDaxter tried to swim in lava
+[00:16:39] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:16:39] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:16:41] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:16:41] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:16:58] [Server thread/INFO]: BIGBEASTISHANK tried to swim in lava
+[00:17:06] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpa add 5
+[00:17:06] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpa] (added 5 to value)]
+[00:17:29] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home add 2
+[00:17:29] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home] (added 2 to value)]
+[00:17:36] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home set 2
+[00:17:36] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home] (set value to 2)]
+[00:17:45] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger homes
+[00:17:45] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Homes]]
+[00:18:03] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpaccept
+[00:18:03] [Server thread/INFO]: [SwankDaxter: Triggered [tpaccept]]
+[00:20:41] [Server thread/INFO]: SwankDaxter burned to death
+[00:20:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9041ms or 180 ticks behind
+[00:20:58] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:20:58] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:21:08] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:21:08] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:21:18] [Server thread/INFO]: SwankDaxter burned to death
+[00:21:37] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:21:37] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:21:39] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:21:39] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:22:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7499ms or 149 ticks behind
+[00:23:24] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:23:24] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:23:35] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:23:35] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:23:47] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpa add 5
+[00:23:47] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpa] (added 5 to value)]
+[00:24:07] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpaccept
+[00:24:07] [Server thread/INFO]: [SwankDaxter: Triggered [tpaccept]]
+[00:24:16] [Server thread/INFO]: SwankDaxter tried to swim in lava
+[00:24:34] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:24:34] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:24:36] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger sethome add 2
+[00:24:36] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Set Home] (added 2 to value)]
+[00:24:40] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:24:40] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:24:40] [Server thread/INFO]: SwankDaxter has made the advancement [A Terrible Fortress]
+[00:26:00] [Server thread/INFO]: SwankDaxter was slain by Zombified Piglin
+[00:26:15] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:26:15] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:26:20] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:26:20] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:26:20] [Server thread/INFO]: SwankDaxter has made the advancement [Into Fire]
+[00:27:29] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[00:27:29] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[00:27:29] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:27:29] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:27:29] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:27:29] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:27:29] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[00:27:29] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open0(Native Method)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open(UnixNativeDispatcher.java:72)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.open(UnixChannelFactory.java:258)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:133)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:146)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:259)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.newOutputStream(Files.java:227)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:140)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:44)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$saveAll$2(PlayerList.java:1239)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda/0x00007f8b418a3a48.get(Unknown Source)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:380)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1232)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1535)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[00:27:29] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[00:27:29] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:27:29] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:27:29] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:27:34] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[00:27:34] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[00:27:34] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:27:34] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:27:34] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:27:34] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:27:34] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[00:27:34] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open0(Native Method)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open(UnixNativeDispatcher.java:72)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.open(UnixChannelFactory.java:258)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:133)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:146)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:259)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.newOutputStream(Files.java:227)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:140)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:44)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$saveAll$2(PlayerList.java:1239)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda/0x00007f8b418a3a48.get(Unknown Source)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:380)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1232)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1535)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[00:27:34] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[00:27:34] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:27:34] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:27:34] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:27:39] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[00:27:39] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
+[00:27:39] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:27:39] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:27:39] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:27:39] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:27:39] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[00:27:39] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open0(Native Method)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open(UnixNativeDispatcher.java:72)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.open(UnixChannelFactory.java:258)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:133)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:146)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:259)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.newOutputStream(Files.java:227)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:140)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:44)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$saveAll$2(PlayerList.java:1239)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda/0x00007f8b418a3a48.get(Unknown Source)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:380)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1232)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1535)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[00:27:39] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[00:27:39] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:27:39] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:27:39] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:27:44] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[00:27:44] [Paper Watchdog Thread/ERROR]: The server has not responded for 25 seconds! Creating thread dump
+[00:27:44] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:27:44] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:27:44] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:27:44] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:27:44] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[00:27:44] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.DeflaterOutputStream.flush(DeflaterOutputStream.java:290)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:253)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.DataOutputStream.flush(DataOutputStream.java:131)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:184)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:194)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:146)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:44)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$saveAll$2(PlayerList.java:1239)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda/0x00007f8b418a3a48.get(Unknown Source)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:380)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1232)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1535)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[00:27:44] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[00:27:44] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:27:44] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:27:44] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:27:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29399ms or 587 ticks behind
+[00:27:49] [Server thread/WARN]: BIGBEASTISHANK moved too quickly! -7.747595083349665,0.0,-6.409601737322788
+[00:27:49] [Server thread/WARN]: SwankDaxter moved too quickly! 9.633289999999988,-1.0,6.707909999999998
+[00:27:49] [Server thread/WARN]: SwankDaxter moved too quickly! 9.707739999999944,-1.0,6.647899999999993
+[00:27:49] [Server thread/WARN]: SwankDaxter moved wrongly!
+[00:28:17] [Server thread/INFO]: SwankDaxter was burned to a crisp while fighting BIGBEASTISHANK
+[00:29:47] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:29:47] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:29:55] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:29:55] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:30:12] [Server thread/INFO]: SwankDaxter burned to death
+[00:30:37] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger sethome add 3
+[00:30:37] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Set Home] (added 3 to value)]
+[00:30:46] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home add 1
+[00:30:46] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home] (added 1 to value)]
+[00:30:50] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home add 2
+[00:30:50] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home] (added 2 to value)]
+[00:30:52] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home add 3
+[00:30:52] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home] (added 3 to value)]
+[00:30:56] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home set 1
+[00:30:56] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home] (set value to 1)]
+[00:31:00] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:31:00] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:31:01] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger spawn
+[00:31:01] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Spawn]]
+[00:31:03] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:31:03] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:31:30] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger delhome set 1
+[00:31:30] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Delete Home] (set value to 1)]
+[00:32:44] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger sethome add 1
+[00:32:44] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Set Home] (added 1 to value)]
+[00:32:49] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger homes
+[00:32:49] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Homes]]
+[00:33:13] [Server thread/INFO]: SwankDaxter tried to swim in lava
+[00:33:36] [Server thread/INFO]: SwankDaxter tried to swim in lava
+[00:33:44] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home add 3
+[00:33:44] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home] (added 3 to value)]
+[00:34:08] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:34:08] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:34:16] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:34:16] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:34:23] [Server thread/INFO]: SwankDaxter tried to swim in lava
+[00:34:46] [Server thread/INFO]: SwankDaxter issued server command: /trigfer tpa add 4
+[00:34:56] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:34:56] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:35:12] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:35:12] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:35:12] [Server thread/INFO]: SwankDaxter has made the advancement [Those Were the Days]
+[00:35:21] [Server thread/INFO]: BIGBEASTISHANK was slain by Piglin Brute
+[00:35:31] [Server thread/INFO]: SwankDaxter was slain by Piglin Brute
+[00:35:48] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:35:48] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:35:56] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:35:56] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:35:58] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.113.185.135:42338 tried to connect!
+[00:36:00] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Player connected with username ajha1304
+[00:36:00] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] ajha1304 (logged in as: ajha1304) has connected to the Java server
+[00:36:00] [User Authenticator #27/INFO]: UUID of player ajha1304 is 926d1512-3375-3515-94d2-891e64131925
+[00:36:00] [Server thread/INFO]: ajha1304 joined the game
+[00:36:00] [Server thread/INFO]: ajha1304[/127.113.185.135:0] logged in with entity id 39868 at ([world_nether]-18.782084, 74.0, -24.30001)
+[00:36:12] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home set 3
+[00:36:12] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home] (set value to 3)]
+[00:36:21] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:36:21] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:36:30] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:36:30] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:36:44] [Async Chat Thread - #54/INFO]: [Not Secure] <ajha1304> hello
+[00:37:14] [Server thread/INFO]: SwankDaxter was slain by Piglin Brute
+[00:37:17] [Server thread/INFO]: BIGBEASTISHANK was slain by Piglin Brute
+[00:37:26] [Server thread/INFO]: ajha1304 issued server command: /trigger tpa add 4
+[00:37:26] [Server thread/INFO]: [ajha1304: Triggered [tpa] (added 4 to value)]
+[00:37:29] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home add 3
+[00:37:29] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home] (added 3 to value)]
+[00:37:31] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:37:31] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:37:41] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:37:41] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:37:49] [Async Chat Thread - #56/INFO]: [Not Secure] <ajha1304> kya kya kiye tumlog
+[00:37:59] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[00:37:59] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[00:37:59] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:37:59] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:37:59] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:37:59] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:37:59] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[00:37:59] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open0(Native Method)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open(UnixNativeDispatcher.java:72)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.open(UnixChannelFactory.java:258)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:133)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:146)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:259)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.newOutputStream(Files.java:227)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.newBufferedWriter(Files.java:2988)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.PlayerAdvancements.save(PlayerAdvancements.java:171)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:591)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$saveAll$2(PlayerList.java:1239)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda/0x00007f8b418a3a48.get(Unknown Source)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:380)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1232)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1535)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[00:37:59] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[00:37:59] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:37:59] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:37:59] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:38:04] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[00:38:04] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[00:38:04] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:38:04] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:38:04] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:38:04] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:38:04] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[00:38:04] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open0(Native Method)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open(UnixNativeDispatcher.java:72)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.open(UnixChannelFactory.java:258)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:133)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:146)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:259)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.newOutputStream(Files.java:227)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.newBufferedWriter(Files.java:2988)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.PlayerAdvancements.save(PlayerAdvancements.java:171)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:591)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$saveAll$2(PlayerList.java:1239)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda/0x00007f8b418a3a48.get(Unknown Source)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:380)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1232)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1535)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[00:38:04] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[00:38:04] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:38:04] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:38:04] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:38:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15623ms or 312 ticks behind
+[00:38:05] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:38:05] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:38:05] [Server thread/WARN]: ajha1304 moved too quickly! 22.49257,5.0,1.8270200000000045
+[00:38:05] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:38:05] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:38:05] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:38:05] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:38:05] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:38:05] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:38:05] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:38:05] [Server thread/WARN]: ajha1304 moved too quickly! 22.48996999999997,5.0,1.8270700000000204
+[00:38:05] [Server thread/INFO]: ajha1304 has made the advancement [Those Were the Days]
+[00:38:11] [Server thread/INFO]: ajha1304 was slain by Zombified Piglin
+[00:38:25] [Server thread/INFO]: SwankDaxter was slain by Zombified Piglin
+[00:38:33] [Server thread/INFO]: ajha1304 issued server command: /trigger tpa add 4
+[00:38:33] [Server thread/INFO]: [ajha1304: Triggered [tpa] (added 4 to value)]
+[00:38:51] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] ajha1304 has disconnected from the Java server because of Bedrock client timed out
+[00:38:51] [Server thread/INFO]: ajha1304 lost connection: Disconnected
+[00:38:51] [Server thread/INFO]: ajha1304 left the game
+[00:38:58] [Server thread/INFO]: BIGBEASTISHANK was shot by Piglin
+[00:39:22] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:39:22] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:39:27] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.113.185.135:58324 tried to connect!
+[00:39:29] [epollEventLoopGroup-3-3/INFO]: [Geyser-Spigot] Player connected with username ajha1304
+[00:39:29] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] ajha1304 (logged in as: ajha1304) has connected to the Java server
+[00:39:29] [User Authenticator #28/INFO]: UUID of player ajha1304 is 926d1512-3375-3515-94d2-891e64131925
+[00:39:29] [Server thread/INFO]: ajha1304 joined the game
+[00:39:29] [Server thread/INFO]: ajha1304[/127.113.185.135:0] logged in with entity id 40817 at ([world]-315.06793, 81.0, 88.9787)
+[00:39:32] [Server thread/INFO]: Invalid UUID
+[00:39:50] [Server thread/INFO]: SwankDaxter was killed while trying to hurt BIGBEASTISHANK
+[00:40:13] [Server thread/INFO]: BIGBEASTISHANK was slain by ajha1304
+[00:40:20] [Server thread/INFO]: SwankDaxter was slain by ajha1304
+[00:40:25] [Async Chat Thread - #58/INFO]: [Not Secure] <ajha1304> lag
+[00:40:49] [Server thread/INFO]: Base value for attribute Attack Damage for entity BIGBEASTISHANK set to 20.0
+[00:41:05] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:41:05] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:41:09] [Async Chat Thread - #58/INFO]: [Not Secure] <ajha1304> arre trime laye tumlog bastion se
+[00:41:20] [Server thread/INFO]: Base value for attribute Max Health for entity BIGBEASTISHANK set to 40.0
+[00:41:31] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home 3
+[00:41:34] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home set 3
+[00:41:34] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home] (set value to 3)]
+[00:41:39] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:41:39] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:41:41] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:41:56] [Server thread/INFO]: ajha1304 issued server command: /trigger tpa add 4
+[00:41:56] [Server thread/INFO]: [ajha1304: Triggered [tpa] (added 4 to value)]
+[00:42:07] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:42:07] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:42:24] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] SwankDaxter has disconnected from the Java server because of Bedrock client timed out
+[00:42:24] [Server thread/INFO]: SwankDaxter lost connection: Disconnected
+[00:42:34] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[00:42:34] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[00:42:34] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:42:34] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:42:34] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:42:34] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:42:34] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[00:42:34] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open0(Native Method)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open(UnixNativeDispatcher.java:72)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.open(UnixChannelFactory.java:258)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:133)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:146)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:259)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.newOutputStream(Files.java:227)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:140)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:44)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:637)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:598)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2093)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2073)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2060)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.handleDisconnection(Connection.java:837)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:260)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1747)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1518)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[00:42:46] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[00:42:46] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:42:46] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:42:46] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:42:47] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[00:42:47] [Paper Watchdog Thread/ERROR]: The server has not responded for 22 seconds! Creating thread dump
+[00:42:47] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:42:47] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:42:47] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:42:47] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:42:47] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[00:42:47] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.unlink0(Native Method)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.unlink(UnixNativeDispatcher.java:159)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:278)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.deleteIfExists(Files.java:1191)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util$4.getAsBoolean(Util.java:564)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.executeInSequence(Util.java:609)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.runWithRetries(Util.java:620)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.safeReplaceOrMoveFile(Util.java:636)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.safeReplaceFile(Util.java:632)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:48)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:637)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:598)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2093)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2073)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2060)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.handleDisconnection(Connection.java:837)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:260)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1747)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1518)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[00:42:47] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[00:42:47] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:42:47] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:42:47] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:42:51] [Async Chat Thread - #60/INFO]: [Not Secure] <ajha1304> lagggg
+[00:42:52] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[00:42:52] [Paper Watchdog Thread/ERROR]: The server has not responded for 27 seconds! Creating thread dump
+[00:42:52] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:42:52] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:42:52] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:42:52] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:42:52] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[00:42:52] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.unlink0(Native Method)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.unlink(UnixNativeDispatcher.java:159)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:278)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.deleteIfExists(Files.java:1191)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util$4.getAsBoolean(Util.java:564)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.executeInSequence(Util.java:609)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.runWithRetries(Util.java:620)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.safeReplaceOrMoveFile(Util.java:636)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.safeReplaceFile(Util.java:632)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:48)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:637)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:598)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2093)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2073)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2060)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.handleDisconnection(Connection.java:837)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:260)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1747)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1518)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[00:42:52] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[00:42:52] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:42:52] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:42:52] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:42:53] [Server thread/INFO]: SwankDaxter left the game
+[00:42:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29370ms or 587 ticks behind
+[00:42:53] [Server thread/WARN]: BIGBEASTISHANK moved too quickly! -9.24314276836077,0.0,4.080922419333632
+[00:42:55] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.141.25.107:42134 tried to connect!
+[00:42:56] [epollEventLoopGroup-3-4/INFO]: [Geyser-Spigot] Player connected with username SwankDaxter
+[00:42:56] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] SwankDaxter (logged in as: SwankDaxter) has connected to the Java server
+[00:42:56] [User Authenticator #29/INFO]: UUID of player SwankDaxter is 43669759-d9e7-3027-a006-495d55bf9e96
+[00:42:56] [Server thread/INFO]: SwankDaxter joined the game
+[00:42:56] [Server thread/INFO]: SwankDaxter[/127.141.25.107:0] logged in with entity id 41436 at ([world_nether]-495.50613, 36.0, -206.91238)
+[00:43:17] [Async Chat Thread - #61/INFO]: [Not Secure] <ajha1304> bhqi gold de
+[00:43:32] [Async Chat Thread - #61/INFO]: [Not Secure] <ajha1304> hel0
+[00:43:33] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:43:33] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:43:38] [Async Chat Thread - #61/INFO]: [Not Secure] <ajha1304> yes
+[00:43:44] [Server thread/INFO]: ajha1304 was slain by BIGBEASTISHANK
+[00:43:46] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:43:46] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:43:49] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:43:59] [Async Chat Thread - #61/INFO]: [Not Secure] <ajha1304> yes
+[00:44:06] [Async Chat Thread - #60/INFO]: [Not Secure] <ajha1304> my sheild ;(
+[00:44:19] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:44:19] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:44:21] [Async Chat Thread - #60/INFO]: [Not Secure] <ajha1304> uspe wo tha alag tarike banner
+[00:44:22] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:44:22] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:45:25] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:46:01] [Async Chat Thread - #62/INFO]: [Not Secure] <ajha1304> me ckming peacefully 
+[00:46:11] [Server thread/INFO]: ajha1304 issued server command: /trigger tpa add 4
+[00:46:11] [Server thread/INFO]: [ajha1304: Triggered [tpa] (added 4 to value)]
+[00:46:36] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger home
+[00:46:36] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [Home]]
+[00:46:41] [Server thread/INFO]: BIGBEASTISHANK issued server command: /gamemode creative
+[00:46:41] [Server thread/INFO]: [BIGBEASTISHANK: Set own game mode to Creative Mode]
+[00:46:54] [Server thread/INFO]: BIGBEASTISHANK issued server command: /gamemode survival
+[00:46:54] [Server thread/INFO]: [BIGBEASTISHANK: Set own game mode to Survival Mode]
+[00:47:06] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:47:21] [Async Chat Thread - #63/INFO]: [Not Secure] <ajha1304>  heating kar rha hai na tum
+[00:47:26] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[00:47:26] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[00:47:26] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:47:26] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:47:26] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:47:26] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:47:26] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[00:47:26] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.DeflaterOutputStream.flush(DeflaterOutputStream.java:290)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:253)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.DataOutputStream.flush(DataOutputStream.java:131)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:184)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:194)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:146)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.saveddata.SavedData.save(SavedData.java:39)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.DimensionDataStorage.lambda$save$0(DimensionDataStorage.java:124)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.WorldPersistentData$$Lambda/0x00007f8b41ac09c8.accept(Unknown Source)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.HashMap.forEach(HashMap.java:1429)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.DimensionDataStorage.save(DimensionDataStorage.java:122)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveLevelData(ServerLevel.java:1554)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1490)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1539)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[00:47:26] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[00:47:26] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:47:26] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:47:26] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:47:31] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[00:47:31] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[00:47:31] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:47:31] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:47:31] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:47:31] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:47:31] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[00:47:31] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.DeflaterOutputStream.flush(DeflaterOutputStream.java:290)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:253)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.DataOutputStream.flush(DataOutputStream.java:131)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:184)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:194)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:146)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.saveddata.SavedData.save(SavedData.java:39)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.DimensionDataStorage.lambda$save$0(DimensionDataStorage.java:124)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.WorldPersistentData$$Lambda/0x00007f8b41ac09c8.accept(Unknown Source)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.HashMap.forEach(HashMap.java:1429)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.DimensionDataStorage.save(DimensionDataStorage.java:122)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveLevelData(ServerLevel.java:1554)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1490)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1539)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[00:47:31] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[00:47:31] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:47:31] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:47:31] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:47:33] [Async Chat Thread - #64/INFO]: [Not Secure] <ajha1304> cheating 
+[00:47:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19549ms or 390 ticks behind
+[00:47:35] [Server thread/WARN]: BIGBEASTISHANK moved too quickly! 14.852213094803801,0.9962968405392019,16.29925996409922
+[00:48:00] [Async Chat Thread - #63/INFO]: [Not Secure] <ajha1304> kaise liya strength
+[00:48:04] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:48:07] [Async Chat Thread - #63/INFO]: [Not Secure] <ajha1304> bhai name tag dede
+[00:48:08] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] SwankDaxter has disconnected from the Java server because of Bedrock client disconnected
+[00:48:08] [Server thread/INFO]: SwankDaxter lost connection: Disconnected
+[00:48:10] [Async Chat Thread - #64/INFO]: [Not Secure] <ajha1304> jhutha 
+[00:48:18] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[00:48:18] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[00:48:18] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:18] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:48:18] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:18] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:48:18] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[00:48:18] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implWrite(BufferedOutputStream.java:222)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.write(BufferedOutputStream.java:200)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.GZIPOutputStream.finish(GZIPOutputStream.java:172)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:244)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:194)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:146)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:44)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:637)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:598)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2093)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2073)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2060)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.handleDisconnection(Connection.java:837)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:260)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1747)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1518)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[00:48:18] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[00:48:18] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:18] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:48:18] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:23] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[00:48:23] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[00:48:23] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:23] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:48:23] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:23] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:48:23] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[00:48:23] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implWrite(BufferedOutputStream.java:222)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.write(BufferedOutputStream.java:200)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.GZIPOutputStream.finish(GZIPOutputStream.java:172)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:244)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:194)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:146)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:44)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:637)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:598)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2093)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2073)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2060)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.handleDisconnection(Connection.java:837)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:260)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1747)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1518)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[00:48:23] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[00:48:23] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:23] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:48:23] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:28] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[00:48:28] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
+[00:48:28] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:28] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:48:28] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:28] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:48:28] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[00:48:28] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:184)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:249)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:194)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:146)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:44)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:637)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:598)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2093)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2073)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2060)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.handleDisconnection(Connection.java:837)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:260)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1747)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1518)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[00:48:28] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[00:48:28] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:28] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:48:28] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:33] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[00:48:33] [Paper Watchdog Thread/ERROR]: The server has not responded for 25 seconds! Creating thread dump
+[00:48:33] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:33] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:48:33] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:33] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:48:33] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[00:48:33] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.unlink0(Native Method)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.unlink(UnixNativeDispatcher.java:159)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:278)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.deleteIfExists(Files.java:1191)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util$4.getAsBoolean(Util.java:564)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.executeInSequence(Util.java:609)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.runWithRetries(Util.java:620)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.safeReplaceOrMoveFile(Util.java:636)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.safeReplaceFile(Util.java:632)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:48)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:637)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:598)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2093)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2073)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2060)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.handleDisconnection(Connection.java:837)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:260)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1747)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1518)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[00:48:33] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[00:48:33] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:33] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:48:33] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:37] [Async Chat Thread - #63/INFO]: [Not Secure] <ajha1304> hum apna nritya dikha diye ab to dede name tag
+[00:48:38] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[00:48:38] [Paper Watchdog Thread/ERROR]: The server has not responded for 30 seconds! Creating thread dump
+[00:48:38] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:38] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:48:38] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:38] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:48:38] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[00:48:38] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.unlink0(Native Method)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.unlink(UnixNativeDispatcher.java:159)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:278)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.deleteIfExists(Files.java:1191)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util$4.getAsBoolean(Util.java:564)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.executeInSequence(Util.java:609)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.runWithRetries(Util.java:620)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.safeReplaceOrMoveFile(Util.java:636)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.safeReplaceFile(Util.java:632)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:48)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:637)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:598)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2093)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2073)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2060)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.handleDisconnection(Connection.java:837)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:260)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1747)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1518)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[00:48:38] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[00:48:38] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:38] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:48:38] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:48:39] [Server thread/INFO]: SwankDaxter left the game
+[00:48:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 31129ms or 622 ticks behind
+[00:48:39] [Server thread/WARN]: Player BIGBEASTISHANK just tried to change non-editable sign
+[00:48:39] [Server thread/WARN]: Player BIGBEASTISHANK just tried to change non-editable sign
+[00:48:39] [Server thread/WARN]: Player BIGBEASTISHANK just tried to change non-editable sign
+[00:48:41] [Server thread/WARN]: Player BIGBEASTISHANK just tried to change non-editable sign
+[00:48:54] [Async Chat Thread - #64/INFO]: [Not Secure] <ajha1304> see chat
+[00:48:57] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.141.25.107:42134 tried to connect!
+[00:48:58] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Player connected with username SwankDaxter
+[00:48:58] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] SwankDaxter (logged in as: SwankDaxter) has connected to the Java server
+[00:48:58] [User Authenticator #30/INFO]: UUID of player SwankDaxter is 43669759-d9e7-3027-a006-495d55bf9e96
+[00:48:59] [Server thread/INFO]: SwankDaxter joined the game
+[00:48:59] [Server thread/INFO]: SwankDaxter[/127.141.25.107:0] logged in with entity id 42335 at ([world]-306.6835, 87.0, 112.70584)
+[00:49:45] [Server thread/INFO]: ajha1304 was slain by BIGBEASTISHANK
+[00:49:57] [Server thread/INFO]: SwankDaxter was slain by ajha1304
+[00:50:04] [Async Chat Thread - #65/INFO]: [Not Secure] <ajha1304> piyush ko bolao
+[00:50:28] [Async Chat Thread - #66/INFO]: [Not Secure] <ajha1304> ye yahi rahgea kya
+[00:50:59] [Server thread/INFO]: ajha1304 was slain by BIGBEASTISHANK
+[00:51:00] [Async Chat Thread - #65/INFO]: [Not Secure] <ajha1304> sorry
+[00:51:09] [Async Chat Thread - #66/INFO]: [Not Secure] <ajha1304> hacker
+[00:51:26] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] ajha1304 has disconnected from the Java server because of Bedrock client disconnected
+[00:51:26] [Server thread/INFO]: ajha1304 lost connection: Disconnected
+[00:51:27] [Server thread/INFO]: ajha1304 left the game
+[00:51:44] [Server thread/INFO]: BIGBEASTISHANK lost connection: Disconnected
+[00:51:45] [Server thread/INFO]: BIGBEASTISHANK left the game
+[00:52:13] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] SwankDaxter has disconnected from the Java server because of Bedrock client disconnected
+[00:52:13] [Server thread/INFO]: SwankDaxter lost connection: Disconnected
+[00:52:13] [Server thread/INFO]: SwankDaxter left the game
+[00:52:30] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.141.25.107:42134 tried to connect!
+[00:52:31] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Player connected with username SwankDaxter
+[00:52:31] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] SwankDaxter (logged in as: SwankDaxter) has connected to the Java server
+[00:52:31] [User Authenticator #31/INFO]: UUID of player SwankDaxter is 43669759-d9e7-3027-a006-495d55bf9e96
+[00:52:31] [Server thread/INFO]: SwankDaxter joined the game
+[00:52:31] [Server thread/INFO]: SwankDaxter[/127.141.25.107:0] logged in with entity id 42690 at ([world]-290.4667, 87.0, 94.866356)
+[00:53:08] [User Authenticator #31/INFO]: UUID of player BIGBEASTISHANK is 53a3fdc7-56b7-3745-9569-a972de0a4fea
+[00:53:08] [Server thread/INFO]: BIGBEASTISHANK joined the game
+[00:53:08] [Server thread/INFO]: BIGBEASTISHANK[/127.138.199.169:58651] logged in with entity id 42743 at ([world]-317.04384983673515, 88.0, 82.73523315908373)
+[00:53:10] [Server thread/INFO]: SwankDaxter issued server command: /trigger tpa add 4
+[00:53:10] [Server thread/INFO]: [SwankDaxter: Triggered [tpa] (added 4 to value)]
+[00:53:45] [Server thread/INFO]: BIGBEASTISHANK was slain by SwankDaxter
+[00:53:51] [Server thread/INFO]: BIGBEASTISHANK issued server command: /effect clear @a
+[00:53:55] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:54:04] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:54:24] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:54:58] [Server thread/INFO]: BIGBEASTISHANK was shot by SwankDaxter
+[00:55:29] [Server thread/INFO]: BIGBEASTISHANK issued server command: /plugins
+[00:55:35] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:55:43] [Server thread/INFO]: BIGBEASTISHANK issued server command: /trigger tpaccept
+[00:55:43] [Server thread/INFO]: [BIGBEASTISHANK: Triggered [tpaccept]]
+[00:55:52] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:56:04] [Server thread/INFO]: BIGBEASTISHANK issued server command: /effect clear @a
+[00:56:16] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:56:40] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:57:07] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:57:14] [User Authenticator #32/INFO]: UUID of player SuspenseOp is e6b42208-a290-3cb1-a8d2-bfb29bae00e0
+[00:57:15] [Server thread/INFO]: SuspenseOp joined the game
+[00:57:15] [Server thread/INFO]: SuspenseOp[/127.25.187.65:41575] logged in with entity id 43254 at ([world_nether]134.88996676401314, 52.0, -27.357692031789792)
+[00:57:38] [Server thread/INFO]: BIGBEASTISHANK was slain by SwankDaxter
+[00:58:25] [Server thread/INFO]: SwankDaxter has made the advancement [Hidden in the Depths]
+[00:58:27] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:58:46] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:59:21] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:59:24] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.113.185.135:50428 tried to connect!
+[00:59:25] [epollEventLoopGroup-3-3/INFO]: [Geyser-Spigot] Player connected with username ajha1304
+[00:59:25] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] ajha1304 (logged in as: ajha1304) has connected to the Java server
+[00:59:25] [User Authenticator #33/INFO]: UUID of player ajha1304 is 926d1512-3375-3515-94d2-891e64131925
+[00:59:25] [Server thread/INFO]: ajha1304 joined the game
+[00:59:25] [Server thread/INFO]: ajha1304[/127.113.185.135:0] logged in with entity id 43779 at ([world]-287.70468, 87.0, 103.50397)
+[00:59:35] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[00:59:50] [Server thread/INFO]: BIGBEASTISHANK was slain by SwankDaxter
+[00:59:53] [Server thread/INFO]: SuspenseOp issued server command: /trigger home
+[00:59:53] [Server thread/INFO]: [SuspenseOp: Triggered [Home]]
+[00:59:56] [Async Chat Thread - #67/INFO]: [Not Secure] <ajha1304> arre mera bat suno na netherite banena ke liy
+[01:00:03] [Server thread/INFO]: Base value for attribute Attack Damage for entity BIGBEASTISHANK set to 1.0
+[01:00:07] [Async Chat Thread - #68/INFO]: [Not Secure] <ajha1304> wo trim chaiye higa bastion me milega wo
+[01:00:11] [Server thread/INFO]: Base value for attribute Max Health for entity BIGBEASTISHANK set to 1.0
+[01:00:49] [Server thread/INFO]: BIGBEASTISHANK was slain by SuspenseOp
+[01:00:50] [Server thread/INFO]: ajha1304 issued server command: /trigger home
+[01:00:50] [Server thread/INFO]: [ajha1304: Triggered [Home]]
+[01:01:00] [Server thread/WARN]: SwankDaxter moved wrongly!
+[01:01:02] [Server thread/INFO]: BIGBEASTISHANK was shot by Skeleton
+[01:01:07] [Server thread/INFO]: BIGBEASTISHANK was slain by ajha1304
+[01:01:21] [Server thread/INFO]: BIGBEASTISHANK was slain by SwankDaxter
+[01:01:25] [Server thread/INFO]: BIGBEASTISHANK was slain by SwankDaxter
+[01:01:30] [Server thread/INFO]: BIGBEASTISHANK was slain by SwankDaxter
+[01:01:34] [Server thread/INFO]: BIGBEASTISHANK was slain by ajha1304
+[01:01:41] [Server thread/INFO]: BIGBEASTISHANK was slain by ajha1304
+[01:01:52] [Async Chat Thread - #69/INFO]: [Not Secure] <ajha1304> mujhe kyu todq
+[01:01:58] [Server thread/INFO]: BIGBEASTISHANK fell from a high place
+[01:02:11] [Server thread/INFO]: BIGBEASTISHANK was slain by SwankDaxter
+[01:02:16] [Server thread/INFO]: BIGBEASTISHANK was slain by SwankDaxter
+[01:02:20] [Server thread/INFO]: BIGBEASTISHANK was slain by SwankDaxter
+[01:02:21] [Async Chat Thread - #69/INFO]: [Not Secure] <ajha1304> mar ek bar
+[01:02:27] [Server thread/INFO]: Base value for attribute Max Health for entity BIGBEASTISHANK set to 100.0
+[01:02:29] [Server thread/INFO]: SuspenseOp lost connection: Disconnected
+[01:02:29] [Server thread/INFO]: SuspenseOp left the game
+[01:02:32] [Server thread/INFO]: Base value for attribute Attack Damage for entity BIGBEASTISHANK set to 100.0
+[01:02:38] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[01:02:42] [Server thread/INFO]: ajha1304 was slain by BIGBEASTISHANK
+[01:02:46] [Server thread/INFO]: SwankDaxter was slain by BIGBEASTISHANK
+[01:02:51] [Async Chat Thread - #70/INFO]: [Not Secure] <ajha1304> piyush help
+[01:03:12] [Async Chat Thread - #70/INFO]: [Not Secure] <ajha1304> bachai demonflame
+[01:03:13] [Server thread/INFO]: Only one entity is allowed, but the provided selector allows more than one
+attribute @a minecraft:generic.attack_damage base set 100<--[HERE]
+[01:03:20] [Server thread/INFO]: Base value for attribute Max Health for entity BIGBEASTISHANK set to 1000.0
+[01:03:37] [Async Chat Thread - #69/INFO]: [Not Secure] <ajha1304> bbi chalo na xp farm banaye
+[01:03:49] [Server thread/INFO]: BIGBEASTISHANK was slain by SwankDaxter
+[01:03:54] [Async Chat Thread - #70/INFO]: [Not Secure] <ajha1304> lol
+[01:04:13] [Async Chat Thread - #70/INFO]: [Not Secure] <ajha1304> caht see sorry
+[01:04:21] [Server thread/INFO]: Base value for attribute Attack Damage for entity BIGBEASTISHANK set to 1.0E10
+[01:04:35] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[01:04:35] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[01:04:35] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:35] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[01:04:35] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:35] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[01:04:35] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[01:04:35] [Paper Watchdog Thread/ERROR]: 	Stack:
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open0(Native Method)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open(UnixNativeDispatcher.java:72)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.open(UnixChannelFactory.java:258)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:133)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:146)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:259)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.newOutputStream(Files.java:227)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:140)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:44)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$saveAll$2(PlayerList.java:1239)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda/0x00007f8b418a3a48.get(Unknown Source)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:380)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1232)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1535)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[01:04:35] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[01:04:35] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:35] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[01:04:35] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:40] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[01:04:40] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[01:04:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:40] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[01:04:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:40] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[01:04:40] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[01:04:40] [Paper Watchdog Thread/ERROR]: 	Stack:
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open0(Native Method)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.open(UnixNativeDispatcher.java:72)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.open(UnixChannelFactory.java:258)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:133)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixChannelFactory.newFileChannel(UnixChannelFactory.java:146)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:259)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.newOutputStream(Files.java:227)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:140)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:44)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$saveAll$2(PlayerList.java:1239)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda/0x00007f8b418a3a48.get(Unknown Source)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:380)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1232)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1535)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[01:04:40] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[01:04:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:40] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[01:04:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:45] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[01:04:45] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
+[01:04:45] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:45] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[01:04:45] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:45] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[01:04:45] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[01:04:45] [Paper Watchdog Thread/ERROR]: 	Stack:
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.DeflaterOutputStream.flush(DeflaterOutputStream.java:290)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:253)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.DataOutputStream.flush(DataOutputStream.java:131)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:184)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:194)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:146)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:44)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$saveAll$2(PlayerList.java:1239)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda/0x00007f8b418a3a48.get(Unknown Source)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:380)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1232)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1535)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[01:04:45] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[01:04:45] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:45] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[01:04:45] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:50] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[01:04:50] [Paper Watchdog Thread/ERROR]: The server has not responded for 25 seconds! Creating thread dump
+[01:04:50] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:50] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[01:04:50] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:50] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[01:04:50] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[01:04:50] [Paper Watchdog Thread/ERROR]: 	Stack:
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implWrite(BufferedOutputStream.java:222)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.write(BufferedOutputStream.java:200)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.GZIPOutputStream.finish(GZIPOutputStream.java:172)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:244)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:194)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:146)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:44)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$saveAll$2(PlayerList.java:1239)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda/0x00007f8b418a3a48.get(Unknown Source)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:380)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1232)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1535)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[01:04:50] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[01:04:50] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:50] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[01:04:50] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:55] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[01:04:55] [Paper Watchdog Thread/ERROR]: The server has not responded for 30 seconds! Creating thread dump
+[01:04:55] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:55] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[01:04:55] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:55] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[01:04:55] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[01:04:55] [Paper Watchdog Thread/ERROR]: 	Stack:
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implWrite(BufferedOutputStream.java:222)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.write(BufferedOutputStream.java:200)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.GZIPOutputStream.finish(GZIPOutputStream.java:172)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:244)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:194)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:146)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:44)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$saveAll$2(PlayerList.java:1239)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda/0x00007f8b418a3a48.get(Unknown Source)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:380)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1232)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1535)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[01:04:55] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[01:04:55] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:55] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[01:04:55] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:56] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] SwankDaxter has disconnected from the Java server because of Read timed out.
+[01:04:56] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] ajha1304 has disconnected from the Java server because of Read timed out.
+[01:05:00] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[01:05:00] [Paper Watchdog Thread/ERROR]: The server has not responded for 35 seconds! Creating thread dump
+[01:05:00] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:05:00] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[01:05:00] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:05:00] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[01:05:00] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[01:05:00] [Paper Watchdog Thread/ERROR]: 	Stack:
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.implWrite(BufferedOutputStream.java:222)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedOutputStream.write(BufferedOutputStream.java:200)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.GZIPOutputStream.finish(GZIPOutputStream.java:172)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:244)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:194)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:146)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:44)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$saveAll$2(PlayerList.java:1239)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda/0x00007f8b418a3a48.get(Unknown Source)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:380)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1232)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1535)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[01:05:00] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[01:05:00] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:05:00] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[01:05:00] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:04:56] [defaultEventLoopGroup-6-3/WARN]: [Geyser-Spigot] An exception occurred: 
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:04:56] [defaultEventLoopGroup-6-2/WARN]: [Geyser-Spigot] An exception occurred: 
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:05:05] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[01:05:05] [Paper Watchdog Thread/ERROR]: The server has not responded for 40 seconds! Creating thread dump
+[01:05:05] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:05:05] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[01:05:05] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:05:05] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[01:05:05] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[01:05:05] [Paper Watchdog Thread/ERROR]: 	Stack:
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.unlink0(Native Method)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixNativeDispatcher.unlink(UnixNativeDispatcher.java:159)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:278)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.file.Files.deleteIfExists(Files.java:1191)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util$4.getAsBoolean(Util.java:564)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.executeInSequence(Util.java:609)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.runWithRetries(Util.java:620)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.safeReplaceOrMoveFile(Util.java:636)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util.safeReplaceFile(Util.java:632)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:48)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:581)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$saveAll$2(PlayerList.java:1239)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda/0x00007f8b418a3a48.get(Unknown Source)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:380)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1232)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1535)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[01:05:05] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[01:05:05] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:05:05] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[01:05:05] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:05:09] [User Authenticator #34/INFO]: UUID of player BIGBEASTISHANK is 53a3fdc7-56b7-3745-9569-a972de0a4fea
+[01:05:10] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-342 (MC: 1.20.4) ---
+[01:05:10] [Paper Watchdog Thread/ERROR]: The server has not responded for 45 seconds! Creating thread dump
+[01:05:10] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:05:10] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[01:05:10] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:05:10] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[01:05:10] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: true | State: RUNNABLE
+[01:05:10] [Paper Watchdog Thread/ERROR]: 	Stack:
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FileDescriptor.close0(Native Method)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FileDescriptor.close(FileDescriptor.java:293)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.FileDescriptor$1.close(FileDescriptor.java:88)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl$Closer.run(FileChannelImpl.java:116)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		java.base@21/jdk.internal.ref.CleanerImpl$PhantomCleanableRef.performCleanup(CleanerImpl.java:178)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		java.base@21/jdk.internal.ref.PhantomCleanable.clean(PhantomCleanable.java:133)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.FileChannelImpl.implCloseChannel(FileChannelImpl.java:210)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.nio.channels.spi.AbstractInterruptibleChannel.close(AbstractInterruptibleChannel.java:113)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.ch.ChannelOutputStream.close(ChannelOutputStream.java:111)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:439)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.cs.StreamEncoder.lockedClose(StreamEncoder.java:237)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		java.base@21/sun.nio.cs.StreamEncoder.close(StreamEncoder.java:222)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.OutputStreamWriter.close(OutputStreamWriter.java:266)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedWriter.implClose(BufferedWriter.java:398)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.io.BufferedWriter.close(BufferedWriter.java:380)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.PlayerAdvancements.save(PlayerAdvancements.java:188)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:591)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$saveAll$2(PlayerList.java:1239)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda/0x00007f8b418a3a48.get(Unknown Source)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:380)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1232)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1535)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f8b40b71a10.run(Unknown Source)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.runWith(Thread.java:1596)
+[01:05:10] [Paper Watchdog Thread/ERROR]: 		java.base@21/java.lang.Thread.run(Thread.java:1583)
+[01:05:10] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:05:10] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[01:05:10] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:05:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 44982ms or 899 ticks behind
+[01:05:10] [Server thread/INFO]: SwankDaxter lost connection: Disconnected
+[01:05:16] [User Authenticator #34/INFO]: UUID of player BIGBEASTISHANK is 53a3fdc7-56b7-3745-9569-a972de0a4fea
+[01:05:18] [Server thread/INFO]: SwankDaxter left the game
+[01:05:18] [Server thread/INFO]: BIGBEASTISHANK lost connection: Disconnected
+[01:05:19] [Server thread/INFO]: BIGBEASTISHANK left the game
+[01:05:19] [Server thread/INFO]: ajha1304 lost connection: Disconnected
+[01:05:19] [Server thread/INFO]: ajha1304 left the game
+[01:05:19] [Server thread/INFO]: BIGBEASTISHANK (/127.138.199.169:42851) lost connection: Disconnected
+[01:05:19] [Server thread/INFO]: BIGBEASTISHANK (/127.138.199.169:59215) lost connection: Disconnected
+[01:05:22] [User Authenticator #34/INFO]: UUID of player BIGBEASTISHANK is 53a3fdc7-56b7-3745-9569-a972de0a4fea
+[01:05:22] [Server thread/INFO]: BIGBEASTISHANK joined the game
+[01:05:22] [Server thread/INFO]: BIGBEASTISHANK[/127.138.199.169:47333] logged in with entity id 44550 at ([world]-295.2094156506162, 87.0, 86.468384232651)
+[01:06:50] [Server thread/INFO]: BIGBEASTISHANK issued server command: /gamemode adventure
+[01:06:50] [Server thread/INFO]: [BIGBEASTISHANK: Set own game mode to Adventure Mode]
+[01:06:52] [Server thread/INFO]: BIGBEASTISHANK issued server command: /gamemode creative
+[01:06:52] [Server thread/INFO]: [BIGBEASTISHANK: Set own game mode to Creative Mode]
+[01:07:07] [Server thread/INFO]: BIGBEASTISHANK issued server command: /summon minecraft:wither_skeleton
+[01:07:07] [Server thread/INFO]: [BIGBEASTISHANK: Summoned new Wither Skeleton]
+[01:07:12] [Server thread/INFO]: BIGBEASTISHANK issued server command: /summon minecraft:withe
+[01:07:14] [Server thread/INFO]: BIGBEASTISHANK issued server command: /summon minecraft:wither
+[01:07:14] [Server thread/INFO]: [BIGBEASTISHANK: Summoned new Wither]
+[01:07:18] [Server thread/INFO]: BIGBEASTISHANK issued server command: /gamemode adventure
+[01:07:18] [Server thread/INFO]: [BIGBEASTISHANK: Set own game mode to Adventure Mode]
+[01:07:39] [Server thread/INFO]: BIGBEASTISHANK issued server command: /gamemode survival
+[01:07:39] [Server thread/INFO]: [BIGBEASTISHANK: Set own game mode to Survival Mode]
+[01:08:11] [Server thread/INFO]: BIGBEASTISHANK issued server command: /summon minecraft:warden
+[01:08:11] [Server thread/INFO]: [BIGBEASTISHANK: Summoned new Warden]
+[01:08:21] [Server thread/INFO]: BIGBEASTISHANK issued server command: /summon minecraft:warden
+[01:08:21] [Server thread/INFO]: [BIGBEASTISHANK: Summoned new Warden]
+[01:08:44] [Server thread/INFO]: BIGBEASTISHANK issued server command: /summon minecraft:ender_dragon
+[01:08:44] [Server thread/INFO]: [BIGBEASTISHANK: Summoned new Ender Dragon]
+[01:10:09] [Server thread/INFO]: BIGBEASTISHANK lost connection: Disconnected
+[01:10:14] [Server thread/INFO]: BIGBEASTISHANK left the game
+[01:10:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4575ms or 91 ticks behind
+[01:10:23] [Server thread/INFO]: Stopping the server
+[01:10:23] [Server thread/INFO]: Stopping server
+[01:10:23] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.2
+[01:10:23] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Saved linked accounts in 125ms
+[01:10:24] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 1243ms
+[01:10:24] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.0-SNAPSHOT
+[01:10:24] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[01:10:24] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[01:10:24] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0-beta-03+d6d222e
+[01:10:24] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:10:24] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v2.1.1
+[01:10:24] [Server thread/INFO]: [VeinMiner] Clearing localized data
+[01:10:24] [Server thread/INFO]: [InvSee++_Clear] Disabling InvSeePlusPlus_Clear v0.24.9
+[01:10:24] [Server thread/INFO]: [InvSee++_Give] Disabling InvSeePlusPlus_Give v0.24.9
+[01:10:24] [Server thread/INFO]: [SuperVanish] Disabling SuperVanish v6.2.18
+[01:10:25] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[01:10:25] [Server thread/INFO]: [InvSee++] Disabling InvSeePlusPlus v0.24.9
+[01:10:25] [Server thread/INFO]: Saving players
+[01:10:25] [Server thread/INFO]: Saving worlds
+[01:10:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:10:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[01:10:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[01:10:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[01:10:25] [Server thread/INFO]: [ChunkHolderManager] Saved 27 block chunks, 350 entity chunks, 1 poi chunks in world 'world' in 0.15s
+[01:11:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:11:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:11:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[01:11:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[01:11:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[01:11:29] [Server thread/INFO]: [ChunkHolderManager] Saved 943 block chunks, 168 entity chunks, 0 poi chunks in world 'world_nether' in 0.57s
+[01:12:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:12:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:12:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[01:12:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[01:12:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[01:12:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[01:12:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:12:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:12:04] [Server thread/INFO]: Flushing Chunk IO
+[01:12:04] [Server thread/INFO]: Closing Thread Pool
+[01:12:04] [Server thread/INFO]: Closing Server
