@@ -1,0 +1,33 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "I am Iron"
+        },
+        "description": {
+            "text": "Obtain a iron nugget"
+        },
+        "icon": {
+            "item": "minecraft:iron_nugget"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cobble": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_nugget"
+						]
+					}
+				]
+            }
+        }
+    },
+    "parent": "obs:ob/root"
+}

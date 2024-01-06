@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+    "ses",
+    "sss"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:sandstone"
+    },
+    "e": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_stone",
+    "count": 4
+  }
+}

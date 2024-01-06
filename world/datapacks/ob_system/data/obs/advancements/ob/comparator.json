@@ -1,0 +1,33 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Technical Difficulties"
+        },
+        "description": {
+            "text": "Craft a redstone comparator"
+        },
+        "icon": {
+            "item": "minecraft:comparator"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cobble": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+					{
+						"items": [
+							"minecraft:comparator"
+						]
+					}
+                ]
+            }
+        }
+    },
+    "parent": "obs:ob/redstone"
+}

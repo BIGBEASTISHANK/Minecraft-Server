@@ -1,0 +1,33 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Nom Nom Nom"
+        },
+        "description": {
+            "text": "Cook a steak"
+        },
+        "icon": {
+            "item": "minecraft:cooked_beef"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cobble": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+					{
+						"items": [
+							"minecraft:cooked_beef"
+						]
+					}
+                ]
+            }
+        }
+    },
+    "parent": "obs:ob/furnace"
+}

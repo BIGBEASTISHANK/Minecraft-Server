@@ -1,0 +1,59 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Once a farmer told me"
+        },
+        "description": {
+            "text": "Plant down potatoes, carrots and beetroots"
+        },
+        "icon": {
+            "item": "minecraft:wheat_seeds"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "potat": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:potatoes",
+                "item": {
+                    "item": "minecraft:potato"
+                }
+            }
+        },
+        "carrot": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:carrots",
+                "item": {
+                    "item": "minecraft:carrot"
+                }
+            }
+        },
+        "beetroot": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:beetroots",
+                "item": {
+                    "item": "minecraft:beetroot_seeds"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "potat"
+        ],
+        [
+            "carrot"
+        ],
+        [
+            "beetroot"
+        ]
+    ],
+    "parent": "obs:ob/plant"
+}

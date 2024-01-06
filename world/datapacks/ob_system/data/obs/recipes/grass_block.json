@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#G",
+        "G#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dirt"
+        },
+        "G": {
+            "item": "minecraft:bone_meal"
+        }
+    },
+    "result": {
+        "item": "minecraft:grass_block",
+        "count": 2
+    }
+}

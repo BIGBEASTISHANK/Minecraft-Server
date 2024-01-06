@@ -1,0 +1,37 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Was it a mistake?"
+        },
+        "description": {
+            "text": "Obtain a stack of oak buttons"
+        },
+        "icon": {
+            "item": "minecraft:oak_button"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "button": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+          {
+            "items": [
+              "minecraft:oak_button"
+            ],
+            "count": {
+              "min": 64,
+              "max": 999
+            }
+          }
+                ]
+            }
+        }
+    },
+    "parent": "obs:ob/farmer"
+}

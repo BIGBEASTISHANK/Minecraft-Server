@@ -1,0 +1,33 @@
+{
+  "parent": "obs:ob/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:villager_spawn_egg"
+    },
+    "title": {
+      "text": "Farm Ville Gers"
+    },
+    "description": {
+      "text": "Order a mob from a trader"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "tag": "obs:spawn_eggs"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

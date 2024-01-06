@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Slice of void"
+        },
+        "description": {
+            "text": "You can grow the world border by breaking the block"
+        },
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "obs:tips/shifting"
+}

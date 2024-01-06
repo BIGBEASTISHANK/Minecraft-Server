@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "W"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:magma_block"
+        },
+        "W": {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    "result": {
+        "item": "minecraft:obsidian",
+        "count": 1
+    }
+}

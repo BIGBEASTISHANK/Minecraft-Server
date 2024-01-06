@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Making Bucks"
+        },
+        "description": {
+            "text": "about every 128 blocks mined another trader will visit you trading for items that are trickier to obtain."
+        },
+        "icon": {
+            "item": "minecraft:emerald_block"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "obs:tips/trader"
+}

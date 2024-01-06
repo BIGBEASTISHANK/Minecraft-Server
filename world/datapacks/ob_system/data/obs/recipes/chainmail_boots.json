@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "i i",
+        "C C"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "C": {
+            "item": "minecraft:chain"
+        }
+    },
+    "result": {
+        "item": "minecraft:chainmail_boots",
+        "count": 1
+    }
+}

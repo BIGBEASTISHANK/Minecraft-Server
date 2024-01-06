@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S",
+        "S#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dirt"
+        },
+        "S": {
+            "item": "minecraft:stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:sand",
+        "count": 4
+    }
+}

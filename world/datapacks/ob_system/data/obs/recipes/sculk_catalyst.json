@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " G ",
+        "###",
+        "WBW"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sculk"
+        },
+        "W": {
+            "item": "minecraft:bone"
+        },
+        "B": {
+            "item": "minecraft:bone_block"
+        },
+        "G": {
+            "item": "minecraft:ghast_tear"
+        }
+    },
+    "result": {
+        "item": "minecraft:sculk_catalyst",
+        "count": 1
+    }
+}

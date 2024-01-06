@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Meat is the Deal!"
+        },
+        "description": {
+            "text": "Eat 64 cooked porkchop"
+        },
+        "icon": {
+            "item": "minecraft:cooked_porkchop"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "no": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "obs:ob/vege"
+}

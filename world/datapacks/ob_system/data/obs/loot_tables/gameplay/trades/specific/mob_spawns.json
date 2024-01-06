@@ -1,0 +1,140 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 20,
+                "max": 28
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pig_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Pig\",\"italic\":false}',Lore:['{\"text\":\"-The Trader will arrive with the mob next time they visit\",\"color\":\"gray\",\"italic\":false}']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cow_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Cow\",\"italic\":false}',Lore:['{\"text\":\"-The Trader will arrive with the mob next time they visit\",\"color\":\"gray\",\"italic\":false}']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chicken_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Chicken\",\"italic\":false}',Lore:['{\"text\":\"-The Trader will arrive with the mob next time they visit\",\"color\":\"gray\",\"italic\":false}']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sheep_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Sheep\",\"italic\":false}',Lore:['{\"text\":\"-The Trader will arrive with the mob next time they visit\",\"color\":\"gray\",\"italic\":false}']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:camel_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Camel\",\"italic\":false}',Lore:['{\"text\":\"-The Trader will arrive with the mob next time they visit\",\"color\":\"gray\",\"italic\":false}']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cow_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Cow\",\"italic\":false}',Lore:['{\"text\":\"-The Trader will arrive with the mob next time they visit\",\"color\":\"gray\",\"italic\":false}']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Cat\",\"italic\":false}',Lore:['{\"text\":\"-The Trader will arrive with the mob next time they visit\",\"color\":\"gray\",\"italic\":false}']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wolf_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Wolf\",\"italic\":false}',Lore:['{\"text\":\"-The Trader will arrive with the mob next time they visit\",\"color\":\"gray\",\"italic\":false}']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Goat\",\"italic\":false}',Lore:['{\"text\":\"-The Trader will arrive with the mob next time they visit\",\"color\":\"gray\",\"italic\":false}']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:llama_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Llama\",\"italic\":false}',Lore:['{\"text\":\"-The Trader will arrive with the mob next time they visit\",\"color\":\"gray\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

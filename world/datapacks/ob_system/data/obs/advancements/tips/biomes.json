@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Expanding your vision"
+        },
+        "description": {
+            "text": "There are other biomes in some other spots. Find them"
+        },
+        "icon": {
+            "item": "minecraft:oak_sapling"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "obs:tips/area"
+}

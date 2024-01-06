@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "hints and Tips"
+        },
+        "description": {
+            "text": "Tips to get you started"
+        },
+        "icon": {
+            "item": "minecraft:gold_nugget"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/amethyst_block.png"
+    },
+    "criteria": {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

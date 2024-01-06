@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Progress"
+        },
+        "description": {
+            "text": "Break the block"
+        },
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/light_blue_wool.png"
+    },
+    "criteria": {
+        "start": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

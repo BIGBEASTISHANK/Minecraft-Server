@@ -1,0 +1,32 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Milky way"
+        },
+        "description": {
+            "text": "Milk a cow"
+        },
+        "icon": {
+            "item": "minecraft:milk_bucket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "milky": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:bucket"
+                },
+                "entity": {
+                    "type": "minecraft:cow"
+                }
+            }
+        }
+    },
+    "parent": "obs:ob/farmer"
+}

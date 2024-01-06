@@ -1,0 +1,33 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Glistening"
+        },
+        "description": {
+            "text": "obtain a gold ingot"
+        },
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cobble": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:gold_ingot"
+						]
+					}
+				]
+            }
+        }
+    },
+    "parent": "obs:ob/iron"
+}

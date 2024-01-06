@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:pufferfish"
+    },
+    "result": "minecraft:gunpowder",
+    "experience": 0.1,
+    "cookingtime": 60
+}

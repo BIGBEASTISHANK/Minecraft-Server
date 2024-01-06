@@ -1,0 +1,41 @@
+{
+  "parent": "obs:ob/sapling",
+  "display": {
+    "icon": {
+      "item": "minecraft:apple"
+    },
+    "title": {
+      "text": "Apple Pie!"
+    },
+    "description": {
+      "text": "Obtain 16 apples"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "apples": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:apple"
+            ],
+            "count": {
+              "min": 16,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "apples"
+    ]
+  ]
+}

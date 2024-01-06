@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Welcome to OneBlock"
+        },
+        "description": {
+            "text": "Start of the block"
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/light_blue_wool.png"
+    },
+    "criteria": {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

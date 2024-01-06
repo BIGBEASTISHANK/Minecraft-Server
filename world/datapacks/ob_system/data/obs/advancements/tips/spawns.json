@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Passive Mobs"
+        },
+        "description": {
+            "text": "Passive mobs still spawn, but you need a grass platform and a lot of patience"
+        },
+        "icon": {
+            "item": "minecraft:beef"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "obs:tips/mob_drops"
+}

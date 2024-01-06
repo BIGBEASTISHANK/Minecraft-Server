@@ -1,0 +1,81 @@
+{
+  "obs:tips/biomes": {
+    "criteria": {
+      "start": "2023-09-03 01:30:06 +0300"
+    },
+    "done": true
+  },
+  "obs:ob/root": {
+    "criteria": {
+      "start": "2023-09-03 01:30:06 +0300"
+    },
+    "done": true
+  },
+  "obs:tips/shifting": {
+    "criteria": {
+      "start": "2023-09-03 01:30:06 +0300"
+    },
+    "done": true
+  },
+  "obs:tips/trader": {
+    "criteria": {
+      "start": "2023-09-03 01:30:06 +0300"
+    },
+    "done": true
+  },
+  "obs:tips/root": {
+    "criteria": {
+      "start": "2023-09-03 01:30:06 +0300"
+    },
+    "done": true
+  },
+  "obs:tips/area": {
+    "criteria": {
+      "start": "2023-09-03 01:30:06 +0300"
+    },
+    "done": true
+  },
+  "obs:tips/end": {
+    "criteria": {
+      "start": "2023-09-03 01:30:06 +0300"
+    },
+    "done": true
+  },
+  "obs:tips/trader_2": {
+    "criteria": {
+      "start": "2023-09-03 01:30:06 +0300"
+    },
+    "done": true
+  },
+  "obs:tips/recipes": {
+    "criteria": {
+      "start": "2023-09-03 01:30:06 +0300"
+    },
+    "done": true
+  },
+  "obs:tips/mob_drops": {
+    "criteria": {
+      "start": "2023-09-03 01:30:06 +0300"
+    },
+    "done": true
+  },
+  "obs:tips/spawns": {
+    "criteria": {
+      "start": "2023-09-03 01:30:06 +0300"
+    },
+    "done": true
+  },
+  "obs:tips/gate": {
+    "criteria": {
+      "start": "2023-09-03 01:30:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-09-03 01:30:07 +0300"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}
